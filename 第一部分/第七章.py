@@ -34,4 +34,5 @@ time = []
 for x in list1 :
     for y in list2 :
         time.append(x * y)
+        time.append(x + y)
 print(time)
