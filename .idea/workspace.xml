@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="my learn file">
-      <change afterPath="$PROJECT_DIR$/爬虫/HackRank1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/HackRank2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/HackRank3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/爬虫.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" afterDir="false" />
+    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/HackRank3.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/HackRank3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/learn/多维数组逆时针转动45度.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/learn/多维数组逆时针转动45度.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/HackRank1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/HackRank2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/HackRank3.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +44,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/第一部分" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="CellModeConfigurable" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/第一部分" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python" working-directory="$PROJECT_DIR$/exercise">
+        <option name="myModuleName" value="python" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/exercise" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pyhton" />
+      <recent name="E:\pyhton\爬虫\learn" />
       <recent name="E:\pyhton\第一部分\第八章" />
       <recent name="E:\pyhton\learn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.HackRank2">
+  <component name="RunManager" selected="Python.HackRank3">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -70,6 +79,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -77,20 +99,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="第九章" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="公约数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一部分" />
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第九章.py" />
+      <option name="SCRIPT_NAME" value="E:\pyhton\爬虫\learn\公约数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,20 +121,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="练习2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="多维数组逆时针转动45度" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise/learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\pyhton\爬虫\HackRank2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/learn/多维数组逆时针转动45度.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,20 +140,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HackRank2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="HackRank1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/HackRank2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/HackRank1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HackRank3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/HackRank3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,6 +197,82 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/HackRank3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="最小公倍数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\pyhton\爬虫\learn\最小公倍数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="最小公倍数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\pyhton\爬虫\最小公倍数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="公约数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\pyhton\爬虫\learn\公约数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="最小公倍数" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\pyhton\爬虫\learn\最小公倍数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -363,6 +477,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="new 2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Programs/Python/Python38-32" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Programs/Python/Python38-32/new 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="python" type="Python.AppEngineServer" factoryName="App Engine server">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -422,10 +558,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.HackRank2" />
         <item itemvalue="Python.HackRank3" />
-        <item itemvalue="Python.练习2" />
-        <item itemvalue="Python.第九章" />
+        <item itemvalue="Python.多维数组逆时针转动45度" />
+        <item itemvalue="Python.HackRank3" />
+        <item itemvalue="Python.new 2" />
       </list>
     </recent_temporary>
   </component>
@@ -459,6 +595,10 @@
       <workItem from="1602323705287" duration="38000" />
       <workItem from="1602323822257" duration="47000" />
       <workItem from="1602324031215" duration="63000" />
+      <workItem from="1602465685108" duration="62851000" />
+      <workItem from="1602724838326" duration="41140000" />
+      <workItem from="1602837161271" duration="2670000" />
+      <workItem from="1602839951323" duration="1697000" />
     </task>
     <task id="LOCAL-00001" summary="my learn file">
       <created>1601453512548</created>
@@ -509,17 +649,29 @@
       <option name="project" value="LOCAL" />
       <updated>1602208200145</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="my learn file">
+      <created>1602465720012</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602465720012</updated>
+    </task>
+    <task id="LOCAL-00009" summary="my learn file">
+      <created>1602838700751</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602838700751</updated>
+    </task>
+    <task id="LOCAL-00010" summary="my learn file">
+      <created>1602839627997</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602839627997</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -569,55 +721,110 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1602322807591" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1602324096283">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1602839623247">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602324096283" />
-    <state width="648" height="223" key="GridCell.Tab.0.bottom" timestamp="1602322846403">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1602839623247" />
+    <state width="576" height="466" key="DebuggerActiveHint" timestamp="1602668721553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602322846403" />
-    <state width="648" height="223" key="GridCell.Tab.0.center" timestamp="1602322846403">
+    <state width="576" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1602668721553" />
+    <state x="541" y="109" key="EnvironmentVariablesDialog" timestamp="1602839766616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602322846403" />
-    <state width="648" height="223" key="GridCell.Tab.0.left" timestamp="1602322846403">
+    <state x="541" y="109" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602839766616" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1602839823666">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602322846403" />
-    <state width="648" height="223" key="GridCell.Tab.0.right" timestamp="1602322846403">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602839823666" />
+    <state width="641" height="171" key="GridCell.Tab.0.bottom" timestamp="1602841521806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602322846403" />
-    <state width="648" height="223" key="GridCell.Tab.1.bottom" timestamp="1602322845479">
+    <state width="641" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602841521806" />
+    <state width="641" height="171" key="GridCell.Tab.0.center" timestamp="1602841521805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602322845479" />
-    <state width="648" height="223" key="GridCell.Tab.1.center" timestamp="1602322845479">
+    <state width="641" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602841521805" />
+    <state width="641" height="171" key="GridCell.Tab.0.left" timestamp="1602841521805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602322845479" />
-    <state width="648" height="223" key="GridCell.Tab.1.left" timestamp="1602322845479">
+    <state width="641" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602841521805" />
+    <state width="641" height="171" key="GridCell.Tab.0.right" timestamp="1602841521805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602322845479" />
-    <state width="648" height="223" key="GridCell.Tab.1.right" timestamp="1602322845479">
+    <state width="641" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602841521805" />
+    <state width="638" height="218" key="GridCell.Tab.1.bottom" timestamp="1602840599130">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="648" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602322845479" />
+    <state width="638" height="218" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602840599130" />
+    <state width="638" height="218" key="GridCell.Tab.1.center" timestamp="1602840599129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="638" height="218" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602840599129" />
+    <state width="638" height="218" key="GridCell.Tab.1.left" timestamp="1602840599129">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="638" height="218" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602840599129" />
+    <state width="638" height="218" key="GridCell.Tab.1.right" timestamp="1602840599130">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="638" height="218" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602840599130" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1602840236801">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602840236801" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602465724391">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602465724391" />
+    <state x="384" y="0" width="598" height="728" key="find.popup" timestamp="1602839435333">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="0" width="598" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602839435333" />
     <state x="274" y="0" key="new project wizard" timestamp="1602324099822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1602324099822" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602582506609">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602582506609" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercise/HackRank1.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/exercise/HackRank1.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$HackRank2.coverage" NAME="HackRank2 Coverage Results" MODIFIED="1602322845366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$HackRank2.coverage" NAME="HackRank2 Coverage Results" MODIFIED="1602576091053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$____1_.coverage" NAME="最小公倍数 Coverage Results" MODIFIED="1602645320201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$45.coverage" NAME="多维数组逆时针转动45度 Coverage Results" MODIFIED="1602840493323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/learn" />
     <SUITE FILE_PATH="coverage/python$2.coverage" NAME="练习2 Coverage Results" MODIFIED="1602228340330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python$learn_python1.coverage" NAME="learn-python1 Coverage Results" MODIFIED="1600842890643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$Learn_Python.coverage" NAME="Learn-Python Coverage Results" MODIFIED="1600911256826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="第五章 (1) Coverage Results" MODIFIED="1600937839859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learn" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="练习 Coverage Results" MODIFIED="1602233116939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$HackRank3.coverage" NAME="HackRank3 Coverage Results" MODIFIED="1602315304154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="公约数 (1) Coverage Results" MODIFIED="1602645888464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="最小公倍数 Coverage Results" MODIFIED="1602662203635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$HackRank1.coverage" NAME="HackRank1 Coverage Results" MODIFIED="1602755816855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$new_2.coverage" NAME="new 2 Coverage Results" MODIFIED="1602838445110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python38-32" />
+    <SUITE FILE_PATH="coverage/python$HackRank3.coverage" NAME="HackRank3 Coverage Results" MODIFIED="1602841521789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise" />
     <SUITE FILE_PATH="coverage/python$python.coverage" NAME="python Coverage Results" MODIFIED="1600681896422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

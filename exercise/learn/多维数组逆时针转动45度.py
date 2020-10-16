@@ -3,7 +3,6 @@ def rotateArr(arr):
     lens = len(arr)
     # 打印二维数组右上半部分
     i = lens - 1
-    print(i)
     while i > 0:
         row = 0
         col = i
@@ -24,7 +23,12 @@ def rotateArr(arr):
             col += 1
         i += 1
 
-    return new_arr
+    for i in range(3) :
+        for j in range(3) :
+            arr[i][j] = new_arr[i+j]
+
+    return arr
+    # return new_arr
 
 if __name__ == "__main__":
     arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
