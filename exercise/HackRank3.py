@@ -1,7 +1,5 @@
 import numpy as np
 
-from exercise.learn.多维数组逆时针转动45度 import rotateArr
-
 l = []
 u = []
 m = [[0 for i in range(3)] for i in range(3)] #创建一个3*3的矩阵
@@ -21,18 +19,6 @@ while num <= 9:
     elif m[row][col] != 0:   #判断下一位不为初始值0
         row, col = row + 2, col - 1
 #按照列表中存储的数字打印出来
-
 print(m)
-n = rotateArr(m)
-print(n)
 
-result = [6][6]
-for i in range(1,5) :
-    result.append(np.rot90(m,i))
-    print(result)
-
-for i in range(1,5) :
-    result.append(np.rot90(n,i))
-
-# print(result)
 
