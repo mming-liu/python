@@ -2,14 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/baidu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/sina.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/write&amp;readCookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/zhihu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/baidulogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/baidu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/baidusearch_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/baidusearch_image.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Tree-02.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/baidusearch_image.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/warn-baidusearch_image.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/xref-baidusearch_image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/cookies_LWP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/dist/baidu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/dist/baidusearch_image.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/dist/ghostdriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/ghostdriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/new_serch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/baidu/save_cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/maoyan/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/maoyan/maoyan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/qiuShiBaiKe/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/qiuShiBaiKe/ghostdriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/qiuShiBaiKe/qiushi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Tree-02.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/toutiao.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/warn-toutiao.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/xref-toutiao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/dist/toutiao.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/toutiao/toutiao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/zhihu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/zhihu/ghostdriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/zhihu/zhihu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/验证码/ghostdriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/验证码/maoyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/验证码/slide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/验证码/滑块1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/试错/验证码/滑块2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/HackRank3.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/HackRank3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise/爬虫.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/baidu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/cookies_LWP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/cookies_LWP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/write&amp;readCookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/write&amp;readCookies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/zhihu.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/zhihu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +80,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -37,18 +93,22 @@
   </component>
   <component name="JupyterTrust" id="bb5955e6-4adb-479f-af50-e00af3c3abd3" />
   <component name="ProjectId" id="1igIBfAeA2aqktNi7EIMWcEmdNf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/第一部分" />
   </component>
@@ -62,14 +122,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pyhton\试错\maoyan" />
+      <recent name="E:\pyhton\试错\baidu" />
       <recent name="E:\pyhton\爬虫" />
       <recent name="E:\pyhton" />
       <recent name="E:\pyhton\爬虫\learn" />
-      <recent name="E:\pyhton\第一部分\第八章" />
-      <recent name="E:\pyhton\learn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.write&amp;readCookies">
+  <component name="RunManager" selected="Python.滑块1">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -82,15 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,6 +159,72 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="滑块1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/试错/验证码" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\pyhton\试错\验证码\滑块1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="滑块1" type="PythonConfigurationType" factoryName="Python">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/试错/验证码" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/试错/验证码/滑块1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="HackRank1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python" />
@@ -124,51 +248,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="HackRank3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise/HackRank3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="HackRank3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/HackRank3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="第十章" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="第十四章" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +261,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\pyhton\第一部分\第十二章.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第十四章.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="第十五章" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一部分" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第十五章.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,135 +393,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="第十五章" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一部分" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第十五章.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="第十七章" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一部分" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第十七章.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/爬虫.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="第十三章" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一部分" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第十三章.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="第十四章" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一部分" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第十四章.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="第十五章" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一部分" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一部分/第十五章.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -442,7 +415,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="re" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -450,12 +423,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/试错" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/baidu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/试错/re.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -464,17 +437,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/试错" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/base.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/试错/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -483,17 +459,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="write&amp;readCookies" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="toutiao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/试错/toutiao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/write&amp;readCookies.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/试错/toutiao/toutiao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -510,12 +489,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\ccc\AppData\Local\Programs\Python\Python38-32\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/试错/zhihu" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/zhihu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/试错/zhihu/zhihu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -583,11 +562,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.write&amp;readCookies" />
-        <item itemvalue="Python.base" />
+        <item itemvalue="Python.toutiao" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.re" />
         <item itemvalue="Python.zhihu" />
-        <item itemvalue="Python.HackRank3" />
-        <item itemvalue="Python.baidu" />
+        <item itemvalue="Python.滑块1" />
       </list>
     </recent_temporary>
   </component>
@@ -630,7 +609,18 @@
       <workItem from="1603422633179" duration="3724000" />
       <workItem from="1604044914181" duration="431000" />
       <workItem from="1604045553130" duration="5736000" />
-      <workItem from="1604455888385" duration="52221000" />
+      <workItem from="1604455888385" duration="62062000" />
+      <workItem from="1604972482471" duration="32271000" />
+      <workItem from="1605144631980" duration="71776000" />
+      <workItem from="1605679614649" duration="37082000" />
+      <workItem from="1605779142945" duration="418000" />
+      <workItem from="1605779994323" duration="3047000" />
+      <workItem from="1605841287750" duration="29240000" />
+      <workItem from="1606117195202" duration="72311000" />
+      <workItem from="1606874271873" duration="83000" />
+      <workItem from="1606874437507" duration="193000" />
+      <workItem from="1606874804843" duration="67000" />
+      <workItem from="1606876101240" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="my learn file">
       <created>1601453512548</created>
@@ -716,7 +706,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603072233620</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="my learn file">
+      <created>1604650554983</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604650554983</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,70 +756,91 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="my learn file" />
     <option name="LAST_COMMIT_MESSAGE" value="my learn file" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="474" y="251" key="#Chrome_Settings" timestamp="1605607282001">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="251" key="#Chrome_Settings/0.0.1366.728@0.0.1366.728" timestamp="1605607282001" />
+    <state x="418" y="186" key="#Notifications" timestamp="1606874286783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="186" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1606874286783" />
     <state x="275" y="4" key="#Plugins" timestamp="1602322807591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1602322807591" />
-    <state x="427" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603423539576">
+    <state x="471" y="149" key="#Web_Browsers" timestamp="1605753911030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="427" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1603423539576" />
+    <state x="471" y="149" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1605753911030" />
+    <state x="513" y="218" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1606295915363">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="513" y="218" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1366.728@0.0.1366.728" timestamp="1606295915363" />
+    <state x="427" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606122219002">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="427" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606122219002" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604627871086">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604627871086" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1603072230981">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1604650552344">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603072230981" />
-    <state width="576" height="466" key="DebuggerActiveHint" timestamp="1602668721553">
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604650552344" />
+    <state width="793" height="466" key="DebuggerActiveHint" timestamp="1605835860331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="576" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1602668721553" />
+    <state width="793" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1605835860331" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1606295920116">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1606295920116" />
     <state x="541" y="109" key="EnvironmentVariablesDialog" timestamp="1602839766616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="109" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602839766616" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1602839823666">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605607280816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602839823666" />
-    <state width="649" height="171" key="GridCell.Tab.0.bottom" timestamp="1604649073078">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605607280816" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1606381103410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604649073078" />
-    <state width="649" height="171" key="GridCell.Tab.0.center" timestamp="1604649073078">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606381103410" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1606381103409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604649073078" />
-    <state width="649" height="171" key="GridCell.Tab.0.left" timestamp="1604649073077">
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606381103409" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1606381103409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604649073077" />
-    <state width="649" height="171" key="GridCell.Tab.0.right" timestamp="1604649073078">
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606381103409" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1606381103410">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="649" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604649073078" />
-    <state width="646" height="220" key="GridCell.Tab.1.bottom" timestamp="1604564802383">
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606381103410" />
+    <state width="1323" height="224" key="GridCell.Tab.1.bottom" timestamp="1606296528916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="646" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604564802383" />
-    <state width="646" height="220" key="GridCell.Tab.1.center" timestamp="1604564802382">
+    <state width="1323" height="224" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606296528916" />
+    <state width="1323" height="224" key="GridCell.Tab.1.center" timestamp="1606296528916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="646" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1604564802382" />
-    <state width="646" height="220" key="GridCell.Tab.1.left" timestamp="1604564802382">
+    <state width="1323" height="224" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606296528916" />
+    <state width="1323" height="224" key="GridCell.Tab.1.left" timestamp="1606296528915">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="646" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1604564802382" />
-    <state width="646" height="220" key="GridCell.Tab.1.right" timestamp="1604564802382">
+    <state width="1323" height="224" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606296528915" />
+    <state width="1323" height="224" key="GridCell.Tab.1.right" timestamp="1606296528916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="646" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1604564802382" />
+    <state width="1323" height="224" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606296528916" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1604625745524">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -831,6 +849,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603072241841" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606296514695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1606296514695" />
+    <state x="225" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606120845344">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="225" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1606120845344" />
     <state x="263" y="18" key="editAsTableFormatDialogDimension" timestamp="1603423888309">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -843,18 +869,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="263" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603072050140" />
-    <state x="274" y="0" key="new project wizard" timestamp="1602324099822">
+    <state x="274" y="0" key="new project wizard" timestamp="1606874882352">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1602324099822" />
+    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606874882352" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1605236963795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605236963795" />
     <state x="475" y="222" key="scopes" timestamp="1603348148438">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="222" key="scopes/0.0.1366.728@0.0.1366.728" timestamp="1603348148438" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602582506609">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606377065570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602582506609" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606377065570" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,6 +909,61 @@
           <line>21</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/maoyan/maoyan.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/zhihu/zhihu.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/zhihu/zhihu.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/zhihu/zhihu.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/run.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/run.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/run.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/试错/run.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -891,20 +976,31 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python$HackRank2.coverage" NAME="HackRank2 Coverage Results" MODIFIED="1602576091053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$write_readCookies.coverage" NAME="write&amp;readCookies Coverage Results" MODIFIED="1604627909258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$write_readCookies.coverage" NAME="write&amp;readCookies Coverage Results" MODIFIED="1604651802792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python$____1_.coverage" NAME="最小公倍数 Coverage Results" MODIFIED="1602645320201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$login_direct.coverage" NAME="login_direct Coverage Results" MODIFIED="1604975688790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smart_login-master/baidu" />
+    <SUITE FILE_PATH="coverage/python$baidu__1_.coverage" NAME="baidu Coverage Results" MODIFIED="1605083905908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错" />
     <SUITE FILE_PATH="coverage/python$2.coverage" NAME="练习2 Coverage Results" MODIFIED="1602228340330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$qiushi.coverage" NAME="qiushi Coverage Results" MODIFIED="1605852862870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/qiuShiBaiKe" />
+    <SUITE FILE_PATH="coverage/python$analy.coverage" NAME="analy Coverage Results" MODIFIED="1605064209094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
+    <SUITE FILE_PATH="coverage/python$run.coverage" NAME="run Coverage Results" MODIFIED="1606296794829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错" />
+    <SUITE FILE_PATH="coverage/python$new_serch.coverage" NAME="new_serch Coverage Results" MODIFIED="1605752854578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/baidu" />
+    <SUITE FILE_PATH="coverage/python$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1606286669981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/zhihu" />
+    <SUITE FILE_PATH="coverage/python$Learn_Python.coverage" NAME="Learn-Python Coverage Results" MODIFIED="1600911256826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$.coverage" NAME="爬虫 Coverage Results" MODIFIED="1603262394456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$toutiao.coverage" NAME="toutiao Coverage Results" MODIFIED="1606378581549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/toutiao" />
+    <SUITE FILE_PATH="coverage/python$HackRank3.coverage" NAME="HackRank3 Coverage Results" MODIFIED="1604564805740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise" />
+    <SUITE FILE_PATH="coverage/python$baidusearch_image.coverage" NAME="baidusearch_image Coverage Results" MODIFIED="1605854357081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/baidu" />
     <SUITE FILE_PATH="coverage/python$learn_python1.coverage" NAME="learn-python1 Coverage Results" MODIFIED="1600842890643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$base.coverage" NAME="base Coverage Results" MODIFIED="1604649073066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$base.coverage" NAME="base Coverage Results" MODIFIED="1604653582581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$maoyan.coverage" NAME="maoyan Coverage Results" MODIFIED="1605865105435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/maoyan" />
     <SUITE FILE_PATH="coverage/python$HackRank1.coverage" NAME="HackRank1 Coverage Results" MODIFIED="1602755816855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python$new_2.coverage" NAME="new 2 Coverage Results" MODIFIED="1602838445110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python38-32" />
-    <SUITE FILE_PATH="coverage/python$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1603357896455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
+    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="滑块1 Coverage Results" MODIFIED="1606381103390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/验证码" />
+    <SUITE FILE_PATH="coverage/python$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1605060755143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/python$45.coverage" NAME="多维数组逆时针转动45度 Coverage Results" MODIFIED="1603071891087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/learn" />
-    <SUITE FILE_PATH="coverage/python$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1604627915269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$Learn_Python.coverage" NAME="Learn-Python Coverage Results" MODIFIED="1600911256826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$re.coverage" NAME="re Coverage Results" MODIFIED="1606294550201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错" />
     <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="公约数 (1) Coverage Results" MODIFIED="1602645888464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="爬虫 Coverage Results" MODIFIED="1603262394456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$HackRank3.coverage" NAME="HackRank3 Coverage Results" MODIFIED="1604564805740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise" />
     <SUITE FILE_PATH="coverage/python$python.coverage" NAME="python Coverage Results" MODIFIED="1600681896422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

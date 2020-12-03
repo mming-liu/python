@@ -35,11 +35,11 @@ response = ur.urlopen(request)
 print(response.read())
 
 # 设置代理，防止访问量过大，被网站踢ip
-enable_proxy = True
-proxy_handler = urllib.request.ProxyHandler({"http" : 'http://some-proxy.com:8080'})
-null_proxy_handler = urllib.request.ProxyHandler({})
-if enable_proxy:
-    opener = urllib.request.build_opener(proxy_handler)
-else:
-    opener = urllib.request.build_opener(null_proxy_handler)
-urllib.request.install_opener(opener)
+# enable_proxy = True
+# proxy_handler = urllib.request.ProxyHandler({"http" : 'http://some-proxy.com:8080'})
+# null_proxy_handler = urllib.request.ProxyHandler({})
+# if enable_proxy:
+#     opener = urllib.request.build_opener(proxy_handler)
+# else:
+#     opener = urllib.request.build_opener(null_proxy_handler)
+# urllib.request.install_opener(opener)

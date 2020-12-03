@@ -11,11 +11,10 @@ def cookies():
     #通过handler来构建opener
     opener = urllib.request.build_opener(handler)
     #此处的open方法同urlopen方法，也可以传入request
-    print(url)
     response = opener.open(url)
-    for item in cookie:
-        print ('Name = '+item.name)
-        print ('Value = '+item.value)
+    # for item in cookie:
+    #     print ('Name = '+item.name)
+    #     print ('Value = '+item.value)
 
 def save_cookies_Moz():
     """保存cookies到文件 —— Netscape格式
@@ -35,7 +34,21 @@ def save_cookies_LWP():
     response = opener.open(url)
     cookie.save(ignore_discard=True, ignore_expires=True)       # 这里必须将参数置为True，否则写入文件失败
 
+def read_cookies_LWP():
+    """
+    读取保存的cookies文件
+    """
+    filename = 'cookies_LWP.txt'
+    cookie = cookielib.LWPCookieJar()
+    cookie.load(filename,ignore_discard=True, ignore_expires=True)
+    print(cookie)
+    request = urllib.request.Request(url)
+    handler = urllib.request.HTTPCookieProcessor(cookie)
+    opener = urllib.request.build_opener(handler)
+    response = opener.open(request)
+
 if __name__ == '__main__' :
-    url = 'https://www.baidu.com'
+    url = 'https://www.zhihu.com'
     cookies()
     save_cookies_LWP()
+    read_cookies_LWP()

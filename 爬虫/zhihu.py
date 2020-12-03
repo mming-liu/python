@@ -11,7 +11,7 @@ from PIL import Image
 
 # 利用session保持链接
 session = requests.session()
-session.cookies = cookielib.LWPCookieJar(filename="cookie.txt")  # cookie存储文件，
+session.cookies = cookielib.LWPCookieJar(filename="cookies_LWP.txt")  # cookie存储文件，
 # 提取保存的cookie
 try:
     session.cookies.load(ignore_discard=True)  # 从文件中读取cookie

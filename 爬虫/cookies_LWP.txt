@@ -1,5 +1,4 @@
 #LWP-Cookies-2.0
-Set-Cookie3: BAIDUID="CACC53E770965EC54DA1EBE2C0DB542C:FG=1"; path="/"; domain=".baidu.com"; path_spec; domain_dot; expires="2021-11-06 08:14:20Z"; comment=bd; version=0
-Set-Cookie3: BIDUPSID=CACC53E770965EC570DF32A7FB2D22BD; path="/"; domain=".baidu.com"; path_spec; domain_dot; expires="2088-11-24 11:28:27Z"; version=0
-Set-Cookie3: PSTM=1604650461; path="/"; domain=".baidu.com"; path_spec; domain_dot; expires="2088-11-24 11:28:27Z"; version=0
-Set-Cookie3: BD_NOT_HTTPS=1; path="/"; domain="www.baidu.com"; path_spec; expires="2020-11-06 08:19:20Z"; version=0
+Set-Cookie3: _xsrf=RXkvVT5aKq9lIFY9z4xY4JKSe8VQd1Go; path="/"; domain=".zhihu.com"; path_spec; expires="2023-04-25 08:36:46Z"; version=0
+Set-Cookie3: _zap="50f041d2-0e8f-4d60-9e54-1cd233c058fa"; path="/"; domain=".zhihu.com"; path_spec; domain_dot; expires="2022-11-06 08:36:46Z"; version=0
+Set-Cookie3: KLBRSID="975d56862ba86eb589d21e89c8d1e74e|1604651806|1604651805"; path="/"; domain="www.zhihu.com"; path_spec; discard; version=0
