@@ -1,71 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫/baidulogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/baidu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/baidu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/baidusearch_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/baidusearch_image.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/Tree-02.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/baidusearch_image.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/warn-baidusearch_image.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/build/baidusearch_image/xref-baidusearch_image.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/cookies_LWP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/dist/baidu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/dist/baidusearch_image.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/dist/ghostdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/ghostdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/new_serch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/baidu/save_cookies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/maoyan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/maoyan/maoyan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/qiuShiBaiKe/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/qiuShiBaiKe/ghostdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/qiuShiBaiKe/qiushi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/Tree-02.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/base_library.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/toutiao.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/warn-toutiao.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/build/toutiao/xref-toutiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/dist/toutiao.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/toutiao/toutiao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/zhihu/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/zhihu/ghostdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/zhihu/zhihu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/验证码/ghostdriver.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/验证码/maoyan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/验证码/slide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/验证码/滑块1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/试错/验证码/滑块2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/baidu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/cookies_LWP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/cookies_LWP.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/write&amp;readCookies.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/write&amp;readCookies.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/zhihu.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/zhihu.py" afterDir="false" />
-    </list>
+    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -620,7 +556,7 @@
       <workItem from="1606874271873" duration="83000" />
       <workItem from="1606874437507" duration="193000" />
       <workItem from="1606874804843" duration="67000" />
-      <workItem from="1606876101240" duration="3946000" />
+      <workItem from="1606876101240" duration="4255000" />
     </task>
     <task id="LOCAL-00001" summary="my learn file">
       <created>1601453512548</created>
@@ -713,7 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604650554983</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="my learn file">
+      <created>1606959110040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959110040</updated>
+    </task>
+    <task id="LOCAL-00015" summary="my learn file">
+      <created>1606959189625</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959189625</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
