@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:learn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="" />
+    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/pyhton/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/试错/toutiao/toutiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/试错/toutiao/toutiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/试错/验证码/滑块1.py" beforeDir="false" afterPath="$PROJECT_DIR$/试错/验证码/滑块1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +52,7 @@
       <GitPushTagMode />
     </option>
   </component>
-  <component name="JupyterTrust" id="bb5955e6-4adb-479f-af50-e00af3c3abd3" />
+  <component name="JupyterTrust" id="ecd7e8af-7502-48e0-aa4b-3c082a976085" />
   <component name="ProjectId" id="1igIBfAeA2aqktNi7EIMWcEmdNf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,11 +66,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JAVA" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/第一部分" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -65,7 +90,7 @@
       <recent name="E:\pyhton\爬虫\learn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.滑块1">
+  <component name="RunManager" selected="Python.toutiao">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -74,17 +99,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -498,11 +512,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zhihu" />
         <item itemvalue="Python.toutiao" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.re" />
-        <item itemvalue="Python.zhihu" />
-        <item itemvalue="Python.滑块1" />
+        <item itemvalue="Python.爬虫" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +570,16 @@
       <workItem from="1606874271873" duration="83000" />
       <workItem from="1606874437507" duration="193000" />
       <workItem from="1606874804843" duration="67000" />
-      <workItem from="1606876101240" duration="4255000" />
+      <workItem from="1606876101240" duration="11418000" />
+      <workItem from="1607392617181" duration="3444000" />
+      <workItem from="1608608792099" duration="5550000" />
+      <workItem from="1608691324330" duration="36000" />
+      <workItem from="1608801546426" duration="6919000" />
+      <workItem from="1609148238738" duration="89000" />
+      <workItem from="1609148483982" duration="128000" />
+      <workItem from="1609210576858" duration="5030000" />
+      <workItem from="1609230765911" duration="3535000" />
+      <workItem from="1610348046554" duration="156000" />
     </task>
     <task id="LOCAL-00001" summary="my learn file">
       <created>1601453512548</created>
@@ -663,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606959189625</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="my learn file">
+      <created>1606959426274</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959426274</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,14 +745,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="474" y="251" key="#Chrome_Settings/0.0.1366.728@0.0.1366.728" timestamp="1605607282001" />
-    <state x="418" y="186" key="#Notifications" timestamp="1606874286783">
+    <state x="418" y="186" key="#Notifications" timestamp="1608615974900">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="418" y="186" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1606874286783" />
-    <state x="275" y="4" key="#Plugins" timestamp="1602322807591">
+    <state x="418" y="186" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1608615974900" />
+    <state x="275" y="4" key="#Plugins" timestamp="1608616239533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1602322807591" />
+    <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1608616239533" />
     <state x="471" y="149" key="#Web_Browsers" timestamp="1605753911030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -739,10 +769,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604627871086" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606959095825">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606959423801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606959095825" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606959423801" />
     <state width="793" height="466" key="DebuggerActiveHint" timestamp="1605835860331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -755,26 +785,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="109" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602839766616" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1605607280816">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609148634908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605607280816" />
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1606381103410">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609148634908" />
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1609222430197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606381103410" />
-    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1606381103409">
+    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1609222430197" />
+    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1609222430197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606381103409" />
-    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1606381103409">
+    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1609222430197" />
+    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1609222430197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606381103409" />
-    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1606381103410">
+    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1609222430197" />
+    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1609222430197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606381103410" />
+    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1609222430197" />
     <state width="1323" height="224" key="GridCell.Tab.1.bottom" timestamp="1606296528916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -791,14 +821,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="224" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606296528916" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1604625745524">
+    <state x="263" y="106" key="IDE.errors.dialog" timestamp="1609210720794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604625745524" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1603072241841">
+    <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1609210720794" />
+    <state x="184" y="8" key="SettingsEditor" timestamp="1608616198406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1603072241841" />
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608616198406" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606959447152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606959447152" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606296514695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -819,10 +853,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="263" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603072050140" />
-    <state x="274" y="0" key="new project wizard" timestamp="1606874882352">
+    <state x="274" y="0" key="new project wizard" timestamp="1609148615332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606874882352" />
+    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1609148615332" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1605236963795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -866,18 +900,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
-          <line>8</line>
+          <line>10</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
-          <line>11</line>
+          <line>13</line>
           <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
-          <line>59</line>
-          <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/试错/zhihu/zhihu.py</url>
@@ -938,7 +967,7 @@
     <SUITE FILE_PATH="coverage/python$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1606286669981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/zhihu" />
     <SUITE FILE_PATH="coverage/python$Learn_Python.coverage" NAME="Learn-Python Coverage Results" MODIFIED="1600911256826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="爬虫 Coverage Results" MODIFIED="1603262394456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$toutiao.coverage" NAME="toutiao Coverage Results" MODIFIED="1606378581549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/toutiao" />
+    <SUITE FILE_PATH="coverage/python$toutiao.coverage" NAME="toutiao Coverage Results" MODIFIED="1609221783948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/toutiao" />
     <SUITE FILE_PATH="coverage/python$HackRank3.coverage" NAME="HackRank3 Coverage Results" MODIFIED="1604564805740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise" />
     <SUITE FILE_PATH="coverage/python$baidusearch_image.coverage" NAME="baidusearch_image Coverage Results" MODIFIED="1605854357081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/baidu" />
     <SUITE FILE_PATH="coverage/python$learn_python1.coverage" NAME="learn-python1 Coverage Results" MODIFIED="1600842890643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

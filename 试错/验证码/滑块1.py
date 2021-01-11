@@ -1,6 +1,8 @@
 import time
+from collections import Counter
 
 from PIL import Image
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -57,4 +59,66 @@ class maoyan_slide():
         im4 = self.reducenoise(im3)
         return im3
 
+    def get_juli(self, image):  # 计算距离
+        w, h = image.size
+        ls = []
+        for i in range(31, w - 31):#图片最左边放置滑块，缺口坐标x不可能小于31
+            for j in range(10, h):
+                if image.getpixel((i, j)) < 100:
+                    count = 0
+                    for k in range(i, i + 31):
+                        if image.getpixel((k, j)) < 100:
+                            count += 1
+                        else:
+                            break
+                    if count > 27: ls.append(i)
+        return Counter(ls).most_common(1)[0][0]
+
+    def get_track(self, distance):  # 设计拖动轨迹
+        ls = [1]
+        while 1:
+            i = ls[-1] * 2
+            ls.append(i)
+            if sum(ls) > distance * 0.7:
+                break
+
+        ls.append(int(distance - sum(ls)))
+        return ls
+
+    def drog_btn(self, track):  # 拖动滑块
+        #定位滑块
+        ele = self.driver.find_element_by_xpath('.//div[@class="JDJRV-slide-inner JDJRV-slide-btn"]')
+        #设计拖动动作链（点击且不放）
+        ActionChains(self.driver).click_and_hold(ele).perform()
+        #根据设计的轨迹，实现滑块拖动
+        for i in track:
+            ActionChains(self.driver).move_by_offset(i, 0).perform()
+        #睡眠0.25秒，伪装成人的判断过程
+        time.sleep(0.25)
+        #释放滑块，类似于松开鼠标
+        ActionChains(self.driver).release().perform()
+        time.sleep(2)
+
+    def check(self):#再次尝试
+        self.get_picture()
+        image = self.make_picture()
+        distance = self.get_juli(image)
+        track = self.get_track(distance)
+        self.drog_btn(track)
+
+
+
 if __name__ == '__main__':
+    # url = 'https://blog.csdn.net/KiM_LYJ/article/details/105984755'
+    login = maoyan_slide()
+    login.get_picture()
+    image = login.make_picture()
+    distance = login.get_juli(image)
+    track = login.get_track(distance)
+    login.drog_btn(track)
+    time_int = 0
+    while time_int < 5:
+        input("是否需要再次尝试")
+        login.driver.refresh()
+        login.check()
+        time_int += 1
