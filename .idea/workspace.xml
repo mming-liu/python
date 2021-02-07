@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/pyhton/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/试错/toutiao/toutiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/试错/toutiao/toutiao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/试错/验证码/滑块1.py" beforeDir="false" afterPath="$PROJECT_DIR$/试错/验证码/滑块1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -579,7 +574,7 @@
       <workItem from="1609148483982" duration="128000" />
       <workItem from="1609210576858" duration="5030000" />
       <workItem from="1609230765911" duration="3535000" />
-      <workItem from="1610348046554" duration="156000" />
+      <workItem from="1610348046554" duration="654000" />
     </task>
     <task id="LOCAL-00001" summary="my learn file">
       <created>1601453512548</created>
@@ -693,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606959426274</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="my learn file">
+      <created>1610348530034</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610348530034</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,10 +771,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604627871086" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1606959423801">
+    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1610348390462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606959423801" />
+    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610348390462" />
     <state width="793" height="466" key="DebuggerActiveHint" timestamp="1605835860331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -829,10 +831,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1608616198406" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606959447152">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610348799392">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606959447152" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610348799392" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606296514695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -853,10 +855,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="480" y="263" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603072050140" />
-    <state x="274" y="0" key="new project wizard" timestamp="1609148615332">
+    <state x="274" y="0" key="new project wizard" timestamp="1610349066516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1609148615332" />
+    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1610349066516" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1605236963795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
