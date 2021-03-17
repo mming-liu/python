@@ -43,7 +43,6 @@ class douban():
             worksheet.write(i,1,self.item_name)
             worksheet.write(i,2,self.item_score)
             worksheet.write(i,3,self.item_intr)
-            i+=1
         workbook.close()
 
 
