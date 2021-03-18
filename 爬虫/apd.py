@@ -1,6 +1,6 @@
 import requests
 import json
-import cx_Oracle
+# import cx_Oracle
 
 def claim_push(data,claim_no,nodeType,nextNodeType):
     url = 'http://192.168.200.161:10007/web-suite/services/restful/claim/pushClaim'

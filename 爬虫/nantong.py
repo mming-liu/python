@@ -26,9 +26,6 @@ for i in range(1,len(area_list)+1):
     jobs = driver.find_elements_by_tag_name('tr')
     for job in jobs:
         new_job.append(job.text)
-        # print(job.text)
-    # if area == '海门区':
-    # print(new_job)  
     select = driver.find_element_by_name('jobAreaList')
 jobs = []
 for job in new_job:
@@ -57,7 +54,7 @@ for m in range(0,len(jobs)):
             checked = jobs[m].split(' ')[4]
             check = jobs[m].split(' ')[5]
             success = jobs[m].split(' ')[6]
-            total = str(int(checked)+int(check)+int(success))
+            total = int(checked)+int(check)+int(success)
             worksheet.write(row,0,dept_name)
             worksheet.write(row,1,dept_code)
             worksheet.write(row,2,job_name)
