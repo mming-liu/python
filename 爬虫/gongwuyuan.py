@@ -99,15 +99,19 @@ def del_page(path):
                 filepath = path + file
                 print(filepath)
                 with pikepdf.open(filepath,'wb',allow_overwriting_input=True) as pdf:
-                    nums = len(pdf.pages)-2 
-                    remove = [0,nums]
-                    # print(len(pdf.pages))
+                #     nums = len(pdf.pages)-2 
+                #     remove = [0,nums]
+                #     # print(len(pdf.pages))
+                #     if 'Unlock' in str(file):
+                #         file = file.replace('Unlock','')
+                #         filepath = path + file
+                #     for index in remove :
+                #         # print(index)
+                #         del pdf.pages[index]
+                #         pdf.save(filepath)
                     if 'Unlock' in str(file):
-                        file = file.replace('Unlock','')
-                        filepath = path + file
-                    for index in remove :
-                        # print(index)
-                        del pdf.pages[index]
+                        file = file.split('.')[1]
+                        filepath = path + file+'.pdf'
                         pdf.save(filepath)
 
 def save_to_excel(city,count,name,link):
@@ -120,34 +124,34 @@ def save_to_excel(city,count,name,link):
 
 
 if __name__ == '__main__':
-    count = 0
-    for page in range(1,13):
-        url = 'http://www.chinagwy.org/html/stzx/qt/98_'+str(page)+'.html' 
-        # if page == 1:
-        response = send_request(url)
-        links = get_links(response)
-        # print(links)
-        names = get_names(response)
-        # city为 事业单位 时，下载全部事业单位试卷
-        city = '事业单位'
+    # count = 0
+    # for page in range(1,13):
+    #     url = 'http://www.chinagwy.org/html/stzx/qt/98_'+str(page)+'.html' 
+    #     # if page == 1:
+    #     response = send_request(url)
+    #     links = get_links(response)
+    #     # print(links)
+    #     names = get_names(response)
+    #     # city为 事业单位 时，下载全部事业单位试卷
+    #     city = '事业单位'
 
-        # 下载真题卷
-        for link in links:
-            name = names[links.index(link)]
-            if city in name:
-                response = send_request(link)
-                try :
-                    download_link = get_download(response)
-                    a = down_load(download_link,city,name)
-                except :
-                    count = count + 1
-                    # print(name,link)
-                    a = save_to_excel(city,count,name,link)
-                    continue
-                # download_link = get_download(response)
-                # if download_link == None :
-                #     count = count + 1
-                #     a = save_to_excel(city,count,name,link)
+    #     # 下载真题卷
+    #     for link in links:
+    #         name = names[links.index(link)]
+    #         if city in name:
+    #             response = send_request(link)
+    #             try :
+    #                 download_link = get_download(response)
+    #                 a = down_load(download_link,city,name)
+    #             except :
+    #                 count = count + 1
+    #                 # print(name,link)
+    #                 a = save_to_excel(city,count,name,link)
+    #                 continue
+    #             # download_link = get_download(response)
+    #             # if download_link == None :
+    #             #     count = count + 1
+    #             #     a = save_to_excel(city,count,name,link)
             
 
-    # del_page('E:/解密后/')
+    del_page('E:/解密后/')
