@@ -62,11 +62,14 @@ class claimPush():
             return None
 
     def new_message(self,data):
-        data1 = data
-        data2 = self.get_request()
-        del data2['accidentNo']
-        data1.update(data2)
-        return data1
+        try:
+            data1 = data
+            data2 = self.get_request()
+            del data2['accidentNo']
+            data1.update(data2)
+            return data1
+        except Exception as e:
+            return data
 
     def change_loss(self,whole_data):
         # print(type(whole_data))
@@ -183,7 +186,7 @@ class do_task():
     def task_done(self,type):
         '''
         适用于从定损直接到定核损结束。要想从其他环节提交到定核损结束，使用 back_push()
-        type = 1 ,从核损提交到定核损结束
+        type = 1 ,从核损提交到定核损结束;
         type = 2 ,从复勘审核提交到定损单结束
         '''
         try:
@@ -214,24 +217,21 @@ class do_task():
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210326_006'
+    claim_no = 'acc_20210326_008'
     push = do_task(claim_no)
 
     # 推单子到定损
     # response = push.push_task()
-    # print(response)
 
     # 单子提交到核损
     # response = push.push_audit()
     # response = push.pre_audit()
-    # print(response)
 
     # 单子提交到复勘审核
     # response = push.push_douAudit('2')
-    # print(response)
 
     # 单子退回定损
-    response = push.back_push('02','07','01')
+    response = push.back_push('01','03','01')
     # print(response)
 
     # print(push.change())
