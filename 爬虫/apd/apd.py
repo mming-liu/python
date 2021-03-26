@@ -69,7 +69,7 @@ class claimPush():
         return data1
 
     def change_loss(self,whole_data):
-        print(type(whole_data))
+        # print(type(whole_data))
         data = self.new_message(whole_data)
         laborValue1 = jsonpath.jsonpath(data,expr='$.claimLabors[*].laborFeeAfterDiscount')
         laborValue2 = jsonpath.jsonpath(data,expr='$.claimLabors[*].operationType')
@@ -102,7 +102,7 @@ class claimPush():
                 jsonpath_expr  = parse(path)
                 jsonpath_expr.find(data)
                 updated_json = jsonpath_expr.update(data, paint_fee)
-                # list的值重复时，只能去到第一个index，所以该list中的值，才能取到符合条件的下一个值
+                # list的值重复时，只能取到第一个index，所以改list中的值，才能取到符合条件的下一个值
                 laborValue2[laborValue2.index(m)] = '05'
             elif m == '02' or m == '04':
                 path = '$.claimLabors['+str(laborValue2.index(m))+'].laborFeeAfterDiscount'
@@ -111,7 +111,6 @@ class claimPush():
                 jsonpath_expr  = parse(path)
                 jsonpath_expr.find(data)
                 updated_json = jsonpath_expr.update(data, labor_fee)
-                # list的值重复时，只能去到第一个index，所以该list中的值，才能取到符合条件的下一个值
                 laborValue2[laborValue2.index(m)] = '05'
         return data
 
