@@ -79,7 +79,7 @@ class claimPush():
         lenth = len(partQuantity)
         if lenth >= 1 :
             for i in range(1,lenth+1):
-                print(i, i % 2)
+                # print(i, i % 2)
                 if i % 2== 1:
                     path = '$.claimParts['+str(i-1)+'].partQuantity'
                     part_quantity = partQuantity[i-1]+2
@@ -203,19 +203,18 @@ class do_task():
     def back_push(self,type,nodetype,nextNodetype):
         '''
         主要是退回，也可以用于指定环节的提交.
-        type = '01',不做修改，直接退回
-        type = '02',修改损失项目再退回
+        type = '01',不做修改，直接退回;type = '02',修改损失项目再退回
         '''
         if type == '01':
             self.b.claim_task(self.message_b,nodetype,nextNodetype)
             response = self.a.claim_push(self.message_c(),nodetype,nextNodetype)
         elif type == '02':
-            self.b.claim_task(self.change(),nodetype,nextNodetype)
-            response = self.a.claim_push(self.message_c(),nodetype,nextNodetype)
+            self.b.claim_task(self.message_b,nodetype,nextNodetype)
+            response = self.a.claim_push(self.change(),nodetype,nextNodetype)
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210326_005'
+    claim_no = 'acc_20210326_006'
     push = do_task(claim_no)
 
     # 推单子到定损
@@ -232,7 +231,7 @@ if __name__ == '__main__':
     # print(response)
 
     # 单子退回定损
-    # response = push.back_push('03','01')
+    response = push.back_push('02','07','01')
     # print(response)
 
     # print(push.change())
