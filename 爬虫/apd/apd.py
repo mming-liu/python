@@ -198,7 +198,7 @@ class do_task():
                 self.b.claim_task(self.message_b,'02','03')
                 self.b.claim_task(self.message_b,'03','06')
                 self.b.claim_task(self.message_b,'06','07')
-                self.b.claim_task(self.message_b,'06','07')
+                self.b.claim_task(self.message_b,'07','04')
             return "Done"
         except Exception as e:
             return e
@@ -217,11 +217,11 @@ class do_task():
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210326_008'
+    claim_no = 'acc_20210331_002'
     push = do_task(claim_no)
 
     # 推单子到定损
-    # response = push.push_task()
+    response = push.push_task()
 
     # 单子提交到核损
     # response = push.push_audit()
@@ -231,7 +231,7 @@ if __name__ == '__main__':
     # response = push.push_douAudit('2')
 
     # 单子退回定损
-    response = push.back_push('01','03','01')
+    # response = push.back_push('01','07','01')
     # print(response)
 
     # print(push.change())
