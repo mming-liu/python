@@ -5,6 +5,9 @@ import requests
 import json
 import cx_Oracle
 from requests.api import post, request
+from decimal  import Decimal
+
+from requests.models import Response
 
 class open_file():
     def open_txt(filename):
@@ -92,29 +95,33 @@ class claimPush():
                 else :
                     path = '$.claimParts['+str(i-1)+'].unitPrice'
                     unit_Price = unitPrice[i-1]+1000
+                    unit_Price = float(Decimal(unit_Price).quantize(Decimal("0.0000")))
                     jsonpath_expr  = parse(path)
                     jsonpath_expr.find(data)
                     updated_json = jsonpath_expr.update(data, unit_Price)
 
-        for m in laborValue2:
-            if m == '03':
-                # print(laborValue2.index(m))
-                path = '$.claimLabors['+str(laborValue2.index(m))+'].laborFee'
-                # print(path)
-                paint_fee = laborValue1[laborValue2.index(m)]+1000
-                jsonpath_expr  = parse(path)
-                jsonpath_expr.find(data)
-                updated_json = jsonpath_expr.update(data, paint_fee)
-                # list的值重复时，只能取到第一个index，所以改list中的值，才能取到符合条件的下一个值
-                laborValue2[laborValue2.index(m)] = '05'
-            elif m == '02' or m == '04':
-                path = '$.claimLabors['+str(laborValue2.index(m))+'].laborFeeAfterDiscount'
-                # print(path)
-                labor_fee = laborValue1[laborValue2.index(m)]+1000
-                jsonpath_expr  = parse(path)
-                jsonpath_expr.find(data)
-                updated_json = jsonpath_expr.update(data, labor_fee)
-                laborValue2[laborValue2.index(m)] = '05'
+        try:
+            for m in laborValue2:
+                if m == '03':
+                    # print(laborValue2.index(m))
+                    path = '$.claimLabors['+str(laborValue2.index(m))+'].laborFee'
+                    # print(path)
+                    paint_fee = laborValue1[laborValue2.index(m)]+1000
+                    jsonpath_expr  = parse(path)
+                    jsonpath_expr.find(data)
+                    updated_json = jsonpath_expr.update(data, paint_fee)
+                    # list的值重复时，只能取到第一个index，所以改list中的值，才能取到符合条件的下一个值
+                    laborValue2[laborValue2.index(m)] = '05'
+                elif m == '02' or m == '04':
+                    path = '$.claimLabors['+str(laborValue2.index(m))+'].laborFeeAfterDiscount'
+                    # print(path)
+                    labor_fee = laborValue1[laborValue2.index(m)]+1000
+                    jsonpath_expr  = parse(path)
+                    jsonpath_expr.find(data)
+                    updated_json = jsonpath_expr.update(data, labor_fee)
+                    laborValue2[laborValue2.index(m)] = '05'
+        except :
+            pass
         return data
 
 class claimStatus():
@@ -156,7 +163,7 @@ class do_task():
         return response.json()
 
     def push_audit(self):
-        # 提交到核损
+        '''# 提交到核损'''
         response = self.b.claim_task(self.message_b,'01','03')
         # response = self.a.claim_push(self.message_c(),'01','03')
         return response.json()
@@ -214,24 +221,29 @@ class do_task():
         elif type == '02':
             self.b.claim_task(self.message_b,nodetype,nextNodetype)
             response = self.a.claim_push(self.change(),nodetype,nextNodetype)
+            # print(self.change())
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210331_002'
+    claim_no = 'acc_20210401_003'
     push = do_task(claim_no)
 
     # 推单子到定损
-    response = push.push_task()
+    # response = push.push_task()
 
     # 单子提交到核损
-    # response = push.push_audit()
+    response = push.push_audit()
     # response = push.pre_audit()
 
     # 单子提交到复勘审核
     # response = push.push_douAudit('2')
 
     # 单子退回定损
-    # response = push.back_push('01','07','01')
+    response = push.back_push('01','03','01')
+    print(response)
+
+    # 定核损结束
+    # response = push.task_done('2')
     # print(response)
 
     # print(push.change())

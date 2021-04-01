@@ -30,6 +30,9 @@ class rule():
         self.versionType = jsonpath.jsonpath(self.message,expr='$.claimWf.versionType')
         self.damageReason = jsonpath.jsonpath(self.message,expr='$.accLossInfo.damageReason')
         self.vehicleMakeCode = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.vehicleMakeCode')
+        self.vehicleSeriesCode = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.vehicleSeriesCode')
+        self.vehicleHash_current = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.vehicleHash.currentSubmitValue')
+        self.vehicleHash_lastSubmitValue = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.vehicleHash.lastSubmitValue')
         self.commercialCoverageList = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialCoverageList[*].coverageCode')
         self.compulsoryCoverageList = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryCoverageList[*].coverageCode')    
         self.totalEstimateAmount = jsonpath.jsonpath(self.message,expr='$.feeInfo.totalEstimateAmount.currentSubmitValue')
@@ -39,6 +42,9 @@ class rule():
         self.commercialPolicyEndDate = jsonpath.jsonpath(self.message,expr= '$.policyInfo.commercialPolicyEndDate')
         self.standardPartId = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].standardPartId')
         self.partName = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partName')
+        self.partId = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partId')
+        self.quantity_current = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].quantity.currentSubmitValue')
+        self.quantity_lastSubmitValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].quantity.lastSubmitValue')
         self.manualFlag = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].manualFlag')
         self.manualMatchedUniquePart_standardid = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].manualMatchedUniquePart.standardPartId')
         self.manualMatchedUniquePart_partName = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].manualMatchedUniquePart.partName')
@@ -58,6 +64,10 @@ class rule():
         self.materialCode = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].materialCode')
         self.materialName = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].materialName')
         self.materialTotalAmount = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].materialTotalAmount.currentSubmitValue')
+        self.assemblyPartRelFlag = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartRelFlag.valueSource')
+        self.assemblyPartIds_valueSource = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartIds.valueSource')
+        self.assemblyPartIds_instantValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartIds.instantValue')
+        self.assemblyPartIds_standardValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartIds.standardValue')
 
     def rule_0101010005(self):
         print(self.coverageCode)
@@ -129,10 +139,34 @@ class rule():
         print(self.materialCode)
         print(self.materialName)
         print(self.materialTotalAmount)    
+   
+    def rule_0104010003(self):
+        print(1,self.versionType)
+        print(2,self.vehicleMakeCode)
+        print(3,self.vehicleSeriesCode)    
+        print(4,self.partFeeDiscount)
+        print(5,self.repairFeeDiscount)
+        print(6,self.removeFeeDiscount)
+        print(7,self.paintFeeDiscount)   
+        print(8,self.claimEstimateItemId)
+        print(9,self.partName)
+        print(10,self.partId)
+        print(11,self.standardPartId)
+        print(12,self.assemblyPartRelFlag)
+        print(13,self.assemblyPartIds_valueSource)
+        print(14,self.assemblyPartIds_instantValue)
+        print(15,self.assemblyPartIds_standardValue)
+
+    def rule_0107010040(self):
+        print(1,self.vehicleHash_current)
+        print(2,self.vehicleHash_lastSubmitValue)
+        print(3,self.partName)
+        print(4,self.quantity_current)
+        print(5,self.quantity_lastSubmitValue)
 
 if __name__ == '__main__':
-    claim_no = 'acc_20210326_001'
-    rule_0101010005 = rule(claim_no).rule_0101010010()
+    claim_no = 'acc_20210401_003'
+    rule_0101010005 = rule(claim_no).rule_0107010040()
 
 
 
