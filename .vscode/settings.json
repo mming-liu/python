@@ -1,3 +1,4 @@
 {
-    "vim.useCtrlKeys": false
+    "vim.useCtrlKeys": false,
+    "python.pythonPath": "D:\\ProgramData\\Python 3.8.5\\python.exe"
 }
