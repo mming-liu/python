@@ -12,7 +12,7 @@ from requests.models import Response
 class open_file():
     def open_txt(filename):
     # 打开报文文件，读取报文内容，并转换为字典（dict）型数据
-        path = 'C:/Users/ccc/Desktop/APD/5.0报文/' + filename
+        path = 'C:/Users/ee54/Desktop/APD/5.0报文/' + filename
         with open(path,'r',encoding='utf-8') as f:
             data = f.read()
             return eval(data)
@@ -225,7 +225,7 @@ class do_task():
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210402_001'
+    claim_no = 'acc_20210406_001'
     push = do_task(claim_no)
 
     # 推单子到定损

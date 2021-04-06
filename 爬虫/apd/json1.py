@@ -25,6 +25,23 @@ class rule():
         self.message = get_message(claim_no).get_message()
     
     # def get_data(self):
+        self.accidentNo = jsonpath.jsonpath(self.message,expr='$.accLossInfo.accidentNo')
+        self.reportDate = jsonpath.jsonpath(self.message,expr='$.claimWf.damageDateInReportNode')
+        self.VIN = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.vin')
+        self.plateNo = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.plateNo')
+        self.brandModel = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.brandModel')
+        self.engineNo = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.engineNo')
+        self.vehicleSubModelName = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.vehicleSubModelName.currentSubmitValue')
+        self.compulsoryVehicleVin = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryVehicleVin')
+        self.commercialVehicleVin = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialVehicleVin')
+        self.compulsoryVehiclePlateNo = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryVehiclePlateNo')
+        self.commercialVehiclePlateNo = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialVehiclePlateNo')
+        self.compulsoryVehicleSubModel = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryVehicleSubModel')
+        self.compulsoryVehicleBrandModel = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryVehicleBrandModel')
+        self.compulsoryVehicleEngineNo = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryVehicleEngineNo')
+        self.commercialVehicleSubModel = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialVehicleSubModel')
+        self.commercialVehicleBrandModel = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialVehicleBrandModel')
+        self.commercialVehicleEngineNo = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialVehicleEngineNo')
         self.contactInfoList = jsonpath.jsonpath(self.message,expr='$.contactInfoList[*]')
         self.includeTypeList = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.includeTypeList')
         self.surveyFirstSiteFlag = jsonpath.jsonpath(self.message,expr='$.accLossInfo.surveyFirstSiteFlag')
@@ -242,7 +259,74 @@ class rule():
         print(16,self.manualMatchedUniquePart_standardid)
         print(17,self.operationType)
         print(18,self.partFeeDiscount)
+    
+    def rule_0101010017(self):
+        print(1,self.totalEstimateAmount)
+        print(2,self.damageDate)
+        print(3,self.lossVehicleType)
+        print(4,self.commercialRenewPolicyFlag)
+        print(5,self.compulsoryRenewPolicyFlag)
+        print(6,self.commercialPolicyStartDate)
+        print(7,self.compulsoryPolicyStartDate)
+        print(8,self.operationType)
+        print(9,self.partFeeDiscount)
+        print(10,self.repairFeeDiscount)
+        print(11,self.paintFeeDiscount)
+        print(12,self.removeFeeDiscount)
+        print(13,self.standardPartId)
+        print(14,self.partName)
+        print(15,self.manualFlag)
+        print(16,self.manualMatchedUniquePart_standardid)
+        print(17,self.manualMatchedUniquePart_partName)
+    
+    def rule_0101010019(self):
+        print(self.reportDate)
+        print(self.damageDate)
+    
+    def rule_0101010020(self):
+        print(1,self.versionType)
+        print(2,self.lossVehicleType)
+        print(3,self.totalEstimateAmount)
+        print(4,self.brandModel)
+        print(5,self.engineNo)
+        print(6,self.vehicleSubModelName)
+        print(7,self.compulsoryVehicleSubModel)
+        print(8,self.compulsoryVehicleBrandModel)
+        print(9,self.compulsoryVehicleEngineNo)
+        print(10,self.commercialVehicleSubModel)
+        print(11,self.commercialVehicleBrandModel)
+        print(12,self.commercialVehicleEngineNo)
+    
+    def rule_0101010021(self):
+        print(self.VIN)
+        print(self.commercialVehicleVin)
+        print(self.compulsoryVehicleVin)
+        print(self.lossVehicleType)
+        print(self.totalEstimateAmount)
+    
+    def rule_0101010022(self):
+        print(self.plateNo)
+        print(self.commercialVehiclePlateNo)
+        print(self.compulsoryVehiclePlateNo)
+        print(self.lossVehicleType)
+        print(self.totalEstimateAmount)
+    
+    def rule_0102010001(self):
+        print(self.VIN)
+        print(self.plateNo)
+        print(self.damageDate)
+        print(self.lossVehicleType)
+        print(self.accidentNo)
+    
+    def rule_0102010002(self):
+        print(self.VIN)
+        print(self.plateNo)
+        print(self.damageDate)
+        print(self.totalEstimateAmount)
+        print(self.lossVehicleType)
+        print(self.accidentNo)
+        print(self.versionType)
 
 if __name__ == '__main__':
-    claim_no = 'acc_20210402_001'
-    rule_0101010005 = rule(claim_no).rule_0101010016()
+    claim_no = 'acc_20210406_001'
+    rule_0101010005 = rule(claim_no).rule_0102010001()
