@@ -225,22 +225,22 @@ class do_task():
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210401_003'
+    claim_no = 'acc_20210402_001'
     push = do_task(claim_no)
 
     # 推单子到定损
-    # response = push.push_task()
+    response = push.push_task()
 
     # 单子提交到核损
-    response = push.push_audit()
+    # response = push.push_audit()
     # response = push.pre_audit()
 
     # 单子提交到复勘审核
     # response = push.push_douAudit('2')
 
     # 单子退回定损
-    response = push.back_push('01','03','01')
-    print(response)
+    # response = push.back_push('01','03','01')
+    # print(response)
 
     # 定核损结束
     # response = push.task_done('2')

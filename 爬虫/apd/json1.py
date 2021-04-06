@@ -25,6 +25,9 @@ class rule():
         self.message = get_message(claim_no).get_message()
     
     # def get_data(self):
+        self.contactInfoList = jsonpath.jsonpath(self.message,expr='$.contactInfoList[*]')
+        self.includeTypeList = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.includeTypeList')
+        self.surveyFirstSiteFlag = jsonpath.jsonpath(self.message,expr='$.accLossInfo.surveyFirstSiteFlag')
         self.coverageCode = jsonpath.jsonpath(self.message,expr='$.coverageCode')
         self.accidentType = jsonpath.jsonpath(self.message,expr='$.accLossInfo.accidentType')
         self.versionType = jsonpath.jsonpath(self.message,expr='$.claimWf.versionType')
@@ -38,6 +41,10 @@ class rule():
         self.totalEstimateAmount = jsonpath.jsonpath(self.message,expr='$.feeInfo.totalEstimateAmount.currentSubmitValue')
         self.damageDate = jsonpath.jsonpath(self.message,expr='$.claimWf.damageDate')
         self.lossVehicleType = jsonpath.jsonpath(self.message,expr='$.vehicleInfo.lossVehicleType')
+        self.compulsoryPolicyStartDate = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryPolicyStartDate')  
+        self.commercialPolicyStartDate = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialPolicyStartDate') 
+        self.compulsoryRenewPolicyFlag = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryRenewPolicyFlag') 
+        self.commercialRenewPolicyFlag = jsonpath.jsonpath(self.message,expr='$.policyInfo.commercialRenewPolicyFlag')
         self.compulsoryPolicyEndDate = jsonpath.jsonpath(self.message,expr='$.policyInfo.compulsoryPolicyEndDate')
         self.commercialPolicyEndDate = jsonpath.jsonpath(self.message,expr= '$.policyInfo.commercialPolicyEndDate')
         self.standardPartId = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].standardPartId')
@@ -68,6 +75,17 @@ class rule():
         self.assemblyPartIds_valueSource = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartIds.valueSource')
         self.assemblyPartIds_instantValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartIds.instantValue')
         self.assemblyPartIds_standardValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartIds.standardValue')
+        self.claimMaterialList_claimEstimateItemId = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].claimEstimateItemId')
+        self.claimMaterialList_materialCode = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].materialCode')
+        self.claimMaterialList_materialName = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].materialName')
+        self.claimMaterialList_manualFlag = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].manualFlag')
+        self.manualMatchedMaterial_materialCode = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].manualMatchedMaterial.materialCode')
+        self.manualMatchedMaterial_materialName = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].manualMatchedMaterial.materialName')
+        self.claimMaterialList_materialTotalAmount = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimMaterialList[*].materialTotalAmount.currentSubmitValue')
+        self.glassFlag_valueSource = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.glassFlag.valueSource')
+        self.glassFlag_instantValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.glassFlag.instantValue')
+        self.glassFlag_standardValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.glassFlag.standardValue')
+        self.glassFlag_seriesValue = jsonpath.jsonpath(self.message,expr='$.lossInfo.claimPartList[*].partAttribInfo.glassFlag.seriesValue')
 
     def rule_0101010005(self):
         print(self.coverageCode)
@@ -163,63 +181,68 @@ class rule():
         print(3,self.partName)
         print(4,self.quantity_current)
         print(5,self.quantity_lastSubmitValue)
+    
+    def rule_0101010001(self):
+        print(self.surveyFirstSiteFlag)
+    
+    def rule_0101010002(self):
+        print(1,self.versionType)
+        print(2,self.coverageCode)
+        print(3,self.lossVehicleType)
+        print(4,self.claimMaterialList_claimEstimateItemId)
+        print(5,self.claimMaterialList_materialCode)
+        print(6,self.claimMaterialList_materialName)
+        print(7,self.claimMaterialList_manualFlag)
+        print(8,self.manualMatchedMaterial_materialCode)
+        print(9,self.manualMatchedMaterial_materialName)
+        print(10,self.claimMaterialList_materialTotalAmount)
+        print(11,self.claimEstimateItemId)
+        print(12,self.partName)
+        print(13,self.standardPartId)
+        print(14,self.manualFlag)
+        print(15,self.manualMatchedUniquePart_partName)
+        print(16,self.manualMatchedUniquePart_standardid)
+        print(17,self.operationType)
+        print(18,self.partFeeDiscount)
+        print(19,self.repairFeeDiscount)
+        print(20,self.glassFlag_valueSource)
+        print(21,self.glassFlag_instantValue)
+        print(22,self.glassFlag_standardValue)
+        print(23,self.glassFlag_seriesValue)
+    
+    def rule_0101010011(self):
+        print(self.coverageCode)
+        print(self.damageReason)
+        print(self.totalEstimateAmount)
+        print(self.partName)
+        print(self.manualMatchedUniquePart_partName)
+        print(self.manualFlag)
+        print(self.operationType)
+        print(self.partFeeDiscount)
+        print(self.repairFeeDiscount)
+        print(self.removeFeeDiscount)
+        print(self.paintFeeDiscount)
+
+    def rule_0101010013(self):
+        print(self.contactInfoList)
+        print(self.vehicleMakeCode)
+        print(self.includeTypeList)
+        print(self.totalEstimateAmount)
+    
+    def rule_0101010016(self):
+        print(self.commercialPolicyStartDate)
+        print(self.compulsoryPolicyStartDate)
+        print(self.commercialRenewPolicyFlag)
+        print(self.compulsoryRenewPolicyFlag)
+        print(self.damageDate)
+        print(12,self.partName)
+        print(13,self.standardPartId)
+        print(14,self.manualFlag)
+        print(15,self.manualMatchedUniquePart_partName)
+        print(16,self.manualMatchedUniquePart_standardid)
+        print(17,self.operationType)
+        print(18,self.partFeeDiscount)
 
 if __name__ == '__main__':
-    claim_no = 'acc_20210401_003'
-    rule_0101010005 = rule(claim_no).rule_0107010040()
-
-
-
-# path = 'C:/Users/ccc/Desktop/APD/5.0报文/处理损失项目.txt'
-# with open(path,'r',encoding='utf-8') as f:
-#     data = f.read()
-#     data = eval(data)
-#     # print(data)
-
-# laborValue1 = jsonpath.jsonpath(data,expr='$.claimLabors[*].laborFeeAfterDiscount')
-# laborValue2 = jsonpath.jsonpath(data,expr='$.claimLabors[*].operationType')
-
-# partQuantity = jsonpath.jsonpath(data,expr='$.claimParts[*].partQuantity')
-# unitPrice = jsonpath.jsonpath(data,expr='$.claimParts[*].unitPrice')
-
-# print(partQuantity,unitPrice)
-# lenth = len(partQuantity)
-# print(lenth)
-# if lenth >= 1 :
-#     for i in range(1,lenth+1):
-#         print(i, i % 2)
-#         if i % 2== 1:
-#             path = '$.claimParts['+str(i-1)+'].partQuantity'
-#             part_quantity = partQuantity[i-1]+2
-#             jsonpath_expr  = parse(path)
-#             jsonpath_expr.find(data)
-#             updated_json = jsonpath_expr.update(data, part_quantity)
-#         else :
-#             path = '$.claimParts['+str(i-1)+'].unitPrice'
-#             unit_Price = unitPrice[i-1]+1000
-#             jsonpath_expr  = parse(path)
-#             jsonpath_expr.find(data)
-#             updated_json = jsonpath_expr.update(data, unit_Price)
-
-# for m in laborValue2:
-#     if m == '03':
-#         # print(laborValue2.index(m))
-#         path = '$.claimLabors['+str(laborValue2.index(m))+'].laborFee'
-#         # print(path)
-#         paint_fee = laborValue1[laborValue2.index(m)]+1000
-#         jsonpath_expr  = parse(path)
-#         jsonpath_expr.find(data)
-#         updated_json = jsonpath_expr.update(data, paint_fee)
-#         # list的值重复时，只能去到第一个index，所以该list中的值，才能取到符合条件的下一个值
-#         laborValue2[laborValue2.index(m)] = '05'
-#     elif m == '02' or m == '04':
-#         path = '$.claimLabors['+str(laborValue2.index(m))+'].laborFeeAfterDiscount'
-#         # print(path)
-#         labor_fee = laborValue1[laborValue2.index(m)]+1000
-#         jsonpath_expr  = parse(path)
-#         jsonpath_expr.find(data)
-#         updated_json = jsonpath_expr.update(data, labor_fee)
-#         # list的值重复时，只能去到第一个index，所以该list中的值，才能取到符合条件的下一个值
-#         laborValue2[laborValue2.index(m)] = '05'
-
-# print(data)
+    claim_no = 'acc_20210402_001'
+    rule_0101010005 = rule(claim_no).rule_0101010016()
