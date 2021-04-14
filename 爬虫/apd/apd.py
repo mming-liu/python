@@ -161,10 +161,22 @@ class do_task():
         # 定损单推送
         response = self.a.claim_push(self.message_a,'01','01')
         return response.json()
+    
+    def push_priceCheck(self):
+        '''提交到核价'''
+        response = self.b.claim_task(self.message_b,'01','02')
+        return response.json()
 
-    def push_audit(self):
-        '''# 提交到核损'''
-        response = self.b.claim_task(self.message_b,'01','03')
+    def push_audit(self,type):
+        '''#提交到核损：
+            01,先提交核价，再提交到核损。
+            02,不经过核价，直接提交到核损
+        '''
+        if type == '01':
+            response = self.b.claim_task(self.message_b,'01','02')
+            response = self.b.claim_task(self.message_b,'02','03')
+        elif type == '02':
+            response = self.b.claim_task(self.message_b,'01','03')
         # response = self.a.claim_push(self.message_c(),'01','03')
         return response.json()
     
@@ -225,25 +237,27 @@ class do_task():
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210408_003'
+    claim_no = 'acc_20210414_008'
     push = do_task(claim_no)
 
     # 推单子到定损
     # response = push.push_task()
 
+    # 单子提交到核价
+    # response = push.push_priceCheck()
+
     # 单子提交到核损
-    response = push.push_audit()
+    response = push.push_audit('01')
     # response = push.pre_audit()
 
     # 单子提交到复勘审核
     # response = push.push_douAudit('2')
 
     # 单子退回定损
-    response = push.back_push('01','03','01')
-    print(response)
+    # response = push.back_push('01','03','01')
 
     # 定核损结束
     # response = push.task_done('1')
-    # print(response)
+    print(response)
 
     # print(push.change())
