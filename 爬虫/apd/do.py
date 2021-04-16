@@ -47,6 +47,10 @@ class get_data(get_message):
         lossType = super().get_data('$.lossType.currentSubmitValue')
         return 'lossType_current = '+str(lossType)
     
+    def submitCnt_currentEnter(self):
+        submitCnt = super().get_data('$.lossInfo.submitCnt.currentEnterValue')
+        return 'submitCnt = ' +str(submitCnt)
+    
     def oneTimeDealFlag(self):
         oneTimeDealFlag = super().get_data('$.oneTimeDealFlag')
         return 'oneTimeDealFlag = ' +str(oneTimeDealFlag)
@@ -62,6 +66,18 @@ class get_data(get_message):
     def entrustFlag(self):
         entrustFlag = super().get_data('$.accLossInfo.entrustFlag')
         return 'entrustFlag = '+str(entrustFlag)
+
+    def floodFlag(self):
+        floodFlag = super().get_data('$.accLossInfo.floodFlag')
+        return 'floodFlag = '+str(floodFlag)
+    
+    def licenseValidityDate(self):
+        licenseValidityDate = super().get_data('$.vehicleInfo.licenseValidityDate')
+        return 'licenseValidityDate = '+str(licenseValidityDate)
+    
+    def driverLicenseValidDate(self):
+        driverLicenseValidDate = super().get_data('$.vehicleInfo.driverLicenseValidDate')
+        return 'driverLicenseValidDate = '+str(driverLicenseValidDate)
     
     def repairFactoryInfo_partType_currentSub(self):
         partType = super().get_data('$.repairFactoryInfo.partType.currentSubmitValue')
@@ -91,17 +107,29 @@ class get_data(get_message):
         collisionPoints = super().get_data('$.vehicleInfo.collisionPoints')
         return 'collisionPoints = '+str(collisionPoints)
 
-    def lossDegree_current(self):
+    def lossDegree_currentSub(self):
         lossDegree = super().get_data('$.vehicleInfo.lossDegree.currentSubmitValue')
-        return 'lossDegree_current = '+str(lossDegree)
+        return 'lossDegree_currentSub = '+str(lossDegree)
     
-    def lossDegree_source(self):
+    def claimPartList_lossDegree(self):
         lossDegree = super().get_data('$.lossInfo.claimPartList[*].partAttribInfo.lossDegree')
-        return 'lossDegree_source = ' +str(lossDegree)
+        return 'claimPartList_lossDegree = ' +str(lossDegree)
 
     def plateNo(self):
         plateNo = super().get_data('$.vehicleInfo.plateNo')
         return 'plateNo = '+str(plateNo)
+    
+    def plateType(self):
+        plateType = super().get_data('$.vehicleInfo.plateType')
+        return 'plateType = '+str(plateType)
+    
+    def usingType(self):
+        usingType = super().get_data('$.vehicleInfo.usingType')
+        return 'usingType = '+str(usingType)
+    
+    def usingTypeText(self):
+        usingTypeText = super().get_data('$.vehicleInfo.usingTypeText')
+        return 'usingTypeText = '+str(usingTypeText)
     
     def bodyInjuryFlag(self):
         bodyInjuryFlag = super().get_data('$.accLossInfo.bodyInjuryFlag')
@@ -119,9 +147,25 @@ class get_data(get_message):
         purchasePrice = super().get_data('$.vehicleInfo.purchasePrice')
         return 'purchasePrice = '+str(purchasePrice)
     
-    def vehicleSubModelName_current(self):
+    def vehicleSubModelName_currentSub(self):
         vehicleSubModelName_current = super().get_data('$.vehicleInfo.vehicleSubModelName.currentSubmitValue')
         return 'vehicleSubModelName_current = '+str(vehicleSubModelName_current)
+    
+    def compulsoryUsingType(self):
+        compulsoryUsingType = super().get_data('$.policyInfo.compulsoryUsingType')
+        return 'commercialUsingType = '+str(compulsoryUsingType)
+    
+    def compulsoryUsingTypeText(self):
+        commercialUsingType = super().get_data('$.policyInfo.compulsoryUsingTypeText')
+        return 'compulsoryUsingTypeText = '+str(commercialUsingType)
+
+    def commercialUsingTypeText(self):
+        compulsoryUsingType = super().get_data('$.policyInfo.commercialUsingTypeText')
+        return 'commercialUsingTypeText = '+str(compulsoryUsingType)
+    
+    def commercialUsingType(self):
+        commercialUsingType = super().get_data('$.policyInfo.commercialUsingType')
+        return 'commercialUsingType = '+str(commercialUsingType)
     
     def commercialCoverageList(self):
         commercialCoverageList = super().get_data('$.policyInfo.commercialCoverageList[*]')
@@ -239,6 +283,10 @@ class get_data(get_message):
         vehicleSeriesCode = super().get_data('$.vehicleInfo.vehicleSeriesCode')
         return 'vehicleSeriesCode = '+str(vehicleSeriesCode)
     
+    def vehicleSubModelCode(self):
+        vehicleSubModelCode = super().get_data('$.vehicleInfo.vehicleSubModelCode')
+        return 'vehicleSubModelCode = '+str(vehicleSubModelCode)
+    
     def vehicleHash_currentSub(self):
         vehicleHash_current = super().get_data('$.vehicleInfo.vehicleHash.currentSubmitValue')
         return 'vehicleHash_current = '+str(vehicleHash_current)
@@ -251,6 +299,10 @@ class get_data(get_message):
         vehicleHash_first = super().get_data('$.vehicleInfo.vehicleHash.firstEnterValue')
         return 'vehicleHash_first = '+str(vehicleHash_first)
     
+    def vehicleHash_firstVersionEstSubmitValue(self):
+        firstVersionEstSubmitValue = super().get_data('$.vehicleInfo.vehicleHash.firstVersionEstSubmitValue')
+        return 'firstVersionEstSubmitValue = '+str(firstVersionEstSubmitValue)
+
     def vehicleHash_last(self):
         vehicleHash_last = super().get_data('$.vehicleInfo.vehicleHash.lastSubmitValue')
         return 'vehicleHash_last = '+str(vehicleHash_last)
@@ -262,9 +314,9 @@ class get_data(get_message):
         vehicleHash_first = super().get_data('$.vehicleInfo.vehicleHash.firstVersionEstReiCompleteValue')
         return 'vehicleHash_firstComplete = '+str(vehicleHash_first)
     
-    def totalEstimateAmount_current(self):
+    def totalEstimateAmount_currentSub(self):
         totalEstimateAmount = super().get_data('$.feeInfo.totalEstimateAmount.currentSubmitValue')
-        return 'totalEstimateAmount_current = '+str(totalEstimateAmount)
+        return 'totalEstimateAmount_currentSub = '+str(totalEstimateAmount)
     
     def damageDate(self):
         damageDate = super().get_data('$.claimWf.damageDate')
@@ -320,13 +372,25 @@ class get_data(get_message):
         laborAmt_firstComplete = super().get_data('$.feeInfo.laborAmt.firstVersionEstReiCompleteValue')
         return 'laborAmt_firstComplete = '+str(laborAmt_firstComplete)
 
+    def claimPartList_standardPartFlag(self):
+        standardPartFlag = super().get_data('$.lossInfo.claimPartList[*].standardPartFlag')
+        return 'claimPartList_standardPartFlag = '+str(standardPartFlag)
+
     def claimPartList_standardPartId(self):
         standardPartId = super().get_data('$.lossInfo.claimPartList[*].standardPartId')
         return 'claimPartList_standardPartId = '+str(standardPartId)
     
+    def claimPartList_assemblyChildPartList(self):
+        claimPartList_assemblyChildPartList = super().get_data('$.lossInfo.claimPartList[*].assemblyChildPartList[*]')
+        return 'claimPartList_assemblyChildPartList = '+str(claimPartList_assemblyChildPartList)    
+    
     def claimPartList_outerRepairFlag(self):
         outerRepairFlag = super().get_data('$.lossInfo.claimPartList[*].outerRepairFlag')
         return 'claimPartList_outerRepairFlag = ' + str(outerRepairFlag)
+    
+    def claimPartList_restoreUsualFlag(self):
+        restoreUsualFlag = super().get_data('$.lossInfo.claimPartList[*].partAttribInfo.restoreUsualFlag')
+        return 'restoreUsualFlag = ' +str(restoreUsualFlag)
     
     def claimPartList_partName(self):
         partName = super().get_data('$.lossInfo.claimPartList[*].partName')
@@ -365,13 +429,17 @@ class get_data(get_message):
         refRootPriceMap = super().get_data('$.lossInfo.claimPartList[*].refRootPriceMap')
         return 'claimPartList_refRootPriceMap = '+str(refRootPriceMap)
 
+    def refLowestPriceDiscountExcludeDiscontinuedPartMap(self):
+        refLowestPriceDiscountMap = super().get_data('$.lossInfo.claimPartList[*].refLowestPriceDiscountExcludeDiscontinuedPartMap')
+        return 'refLowestPriceDiscountExcludeDiscontinuedPartMap = '+str(refLowestPriceDiscountMap)
+
     def claimPartList_refLowestPriceDiscountMap(self):
         refLowestPriceDiscountMap = super().get_data('$.lossInfo.claimPartList[*].refLowestPriceDiscountMap')
         return 'claimPartList_refLowestPriceDiscountMap = '+str(refLowestPriceDiscountMap)
     
-    def claimPartList_itemTotalFeeDiscount_current(self):
+    def claimPartList_itemTotalFeeDiscount_currentSub(self):
         itemTotalFeeDiscount_current = super().get_data('$.lossInfo.claimPartList[*].itemTotalFeeDiscount.currentSubmitValue')
-        return 'claimPartList_itemTotalFeeDiscount_current = '+str(itemTotalFeeDiscount_current)
+        return 'claimPartList_itemTotalFeeDiscount_currentSub = '+str(itemTotalFeeDiscount_current)
 
     def claimPartList_unitPriceDiscount_currentsub(self):
         unitPriceDiscount_current = super().get_data('$.lossInfo.claimPartList[*].unitPriceDiscount.currentSubmitValue')
@@ -520,6 +588,18 @@ class get_data(get_message):
         removeFeeDiscount = super().get_data('$.lossInfo.claimPartList[*].removeFeeDiscount.firstEnterValue')
         return 'claimPartList_removeFeeDiscount_firstEnter = '+str(removeFeeDiscount)
     
+    def claimPartList_newItemAfterFirstVersionFlowFlowByOpMap(self):
+        newItemAfterFirstVersionFlowFlowByOpMap = super().get_data('$.lossInfo.claimPartList[*].newItemAfterFirstVersionFlowFlowByOpMap')
+        return 'claimPartList_newItemAfterFirstVersionFlowFlowByOpMap = '+str(newItemAfterFirstVersionFlowFlowByOpMap)
+
+    def claimPartList_newItemAfterFirstVersionFlowByLaborTypeMap(self):
+        newItemAfterFirstVersionFlowByLaborTypeMap = super().get_data('$.lossInfo.claimPartList[*].newItemAfterFirstVersionFlowByLaborTypeMap')
+        return 'claimPartList_newItemAfterFirstVersionFlowByLaborTypeMap = '+str(newItemAfterFirstVersionFlowByLaborTypeMap)
+
+    def claimMaterialList_newItemAfterFirstVersionFlowByLaborTypeMap(self):
+        newItemAfterFirstVersionFlowByLaborTypeMap = super().get_data('$.lossInfo.claimMaterialList[*].newItemAfterFirstVersionFlowByLaborTypeMap')
+        return 'claimMaterialList_newItemAfterFirstVersionFlowByLaborTypeMap = '+str(newItemAfterFirstVersionFlowByLaborTypeMap)
+    
     def claimPartList_allRemoveFeeSum_current(self):
         allRemoveFeeSum = super().get_data('$.feeInfo.allRemoveFeeSum.currentSubmitValue')
         return 'claimPartList_allRemoveFeeSum_current = '+str(allRemoveFeeSum)
@@ -532,7 +612,7 @@ class get_data(get_message):
         outerFlag = super().get_data('$.lossInfo.claimPartList[*].partAttribInfo.outerFlag')
         return 'outerFlag = '+str(outerFlag)
     
-    def assemblyPartRelFlag(self):
+    def claimPartList_assemblyPartRelFlag(self):
         assemblyPartRelFlag = super().get_data('$.lossInfo.claimPartList[*].partAttribInfo.assemblyPartRelFlag.valueSource')
         return 'assemblyPartRelFlag = '+str(assemblyPartRelFlag)
     
@@ -618,13 +698,13 @@ class rule(get_data):
         vehicleHash_current = super().vehicleHash_currentSub()
         vehicleHash_first = super().vehicleHash_firstComplete()
         laborAmt_first = super().laborAmt_firstComplete()
-        laborAmt_current = super().laborAmt_current()
+        laborAmt_current = super().laborAmt_currentSub()
         return versionType,claimVersion,vehicleHash_current,vehicleHash_first,laborAmt_first,laborAmt_current
 
     def rule_0107010027(self):
         versionType = super().versionType()
         claimVersion = super().claim_version()
-        repairFactoryType_current = super().repairFactoryType_current()
+        repairFactoryType_current = super().repairFactoryType_currentSub()
         repairFactoryType_firstComplete = super().repairFactoryType_firstComplete()
         vehicleHash_current = super().vehicleHash_currentSub()
         vehicleHash_firstComplete = super().vehicleHash_firstComplete()
@@ -633,13 +713,13 @@ class rule(get_data):
         claimPartList_standPartId = super().claimPartList_standardPartId()
         manualMatchedUniquePart_partName = super().manualMatchedUniquePart_partName()
         manualMatchedUniquePart_standPartId = super().manualMatchedUniquePart_standardId()
-        partFeeDiscount_current = super().claimPartList_partFeeDiscount_current()
+        partFeeDiscount_current = super().claimPartList_partFeeDiscount_currentSub()
         partFeeDiscount_first = super().claimPartList_partFeeDiscount_firstComplete()
-        repairFeeDiscount_current = super().claimPartList_repairFeeDiscount_current()
+        repairFeeDiscount_current = super().claimPartList_repairFeeDiscount_currentSub()
         repairFeeDiscount_first = super().claimPartList_repairFeeDiscount_firstComplete()
-        paintFeeDiscount_current = super().claimPartList_paintFeeDiscount_current()
+        paintFeeDiscount_current = super().claimPartList_paintFeeDiscount_currentSub()
         paintFeeDiscount_first = super().claimPartList_paintFeeDiscount_firstComplete()
-        removeFeeDiscount_current = super().claimPartList_removeFeeDiscount_current()
+        removeFeeDiscount_current = super().claimPartList_removeFeeDiscount_currentSub()
         removeFeeDiscount_first = super().claimPartList_removeFeeDiscount_firstComplete()
         return versionType,claimVersion,repairFactoryType_current,repairFactoryType_firstComplete,vehicleHash_current,\
                 vehicleHash_firstComplete,claimPartList_manualFlag,claimPartList_partName,claimPartList_standPartId,\
@@ -676,7 +756,7 @@ class rule(get_data):
         accidentType = super().accidentType()
         bodyInjuryFlag = super().bodyInjuryFlag()
         purchasePrice = super().purchasePrice()
-        totalEstimateAmount_current = super().totalEstimateAmount_current()
+        totalEstimateAmount_current = super().totalEstimateAmount_currentSub()
         versionType = super().versionType()
         return accidentType,bodyInjuryFlag,purchasePrice,totalEstimateAmount_current,versionType
     
@@ -689,8 +769,8 @@ class rule(get_data):
         manualFlag = super().claimPartList_manualFlag()
         manua_partName = super().manualMatchedUniquePart_partName()
         manua_standardId = super().manualMatchedUniquePart_standardId()
-        operationType = super().claimPartList_operationType_current()
-        lossDegree_source = super().lossDegree_source()
+        operationType = super().claimPartList_operationType_currentSub()
+        lossDegree_source = super().lossDegree_currentSub()
         return damage_reason,accidentType,claimEstimateItemId,partName,standardPartId,manualFlag,manua_partName,manua_standardId,\
             operationType,lossDegree_source
         
@@ -700,15 +780,15 @@ class rule(get_data):
         operationType = super().claimPartList_operationType_current() 
         manualFlag = super().claimPartList_manualFlag()
         claimPartList_refUnitPriceDiscount = super().claimPartList_refUnitPriceDiscount()
-        claimPartList_itemTotalFeeDiscount = super().claimPartList_itemTotalFeeDiscount_current()
+        claimPartList_itemTotalFeeDiscount = super().claimPartList_itemTotalFeeDiscount_currentSub()
         return claimEstimateItemId,partName,operationType,manualFlag,\
             claimPartList_refUnitPriceDiscount,claimPartList_itemTotalFeeDiscount
 
     def rule_0108010011(self):
         refRootPriceMap = super().claimPartList_refRootPriceMap()
-        partFeeDiscount = super().claimPartList_partFeeDiscount_current()
+        partFeeDiscount = super().claimPartList_partFeeDiscount_currentSub()
         unitPriceDiscount = super().claimPartList_unitPriceDiscount_currentsub()
-        totalEstimateAmount = super().totalEstimateAmount_current()
+        totalEstimateAmount = super().totalEstimateAmount_currentSub()
         return refRootPriceMap,partFeeDiscount,unitPriceDiscount,totalEstimateAmount
     
     def rule_0109010005(self):
@@ -735,11 +815,11 @@ class rule(get_data):
         oneTimeDealFlag = super().oneTimeDealFlag()
         manualFlag = super().claimPartList_manualFlag()
         outerRepairFlag = super().claimPartList_outerRepairFlag()
-        repairFeeDiscount = super().claimPartList_repairFeeDiscount_current()
+        repairFeeDiscount = super().claimPartList_repairFeeDiscount_currentSub()
         refLowestPriceDiscountMap = super().claimPartList_refLowestPriceDiscountMap()
         partName = super().claimPartList_partName()
         claimEstimateItemId = super().claimPartList_claimEstimateItemId()
-        partType = super().repairFactoryInfo_partType_current()
+        partType = super().repairFactoryInfo_partType_currentSub()
         return losstype,oneTimeDealFlag,manualFlag,outerRepairFlag,repairFeeDiscount,refLowestPriceDiscountMap,\
             partName,claimEstimateItemId,partType
     
@@ -769,9 +849,9 @@ class rule(get_data):
         vehicleHash_first = super().vehicleHash_firstEnter()  
         partType_current = super().claimPartList_partType_currentEnter()
         partType_first = super().claimPartList_partType_firstEnter()      
-        partAmt_current = super().partAmt_currentEnter
+        partAmt_current = super().partAmt_currentEnter()
         partAmt_first = super().partAmt_fisrtEnter()
-        submitCnt_current = super().claimPartList_submitCnt_currentEnter()
+        submitCnt_current = super().submitCnt_currentEnter()
         return  currentNodeType,nextNodeType,vehicleHash_current,vehicleHash_first,partType_current,\
                 partType_first,partAmt_current,partAmt_first,submitCnt_current   
 
@@ -820,10 +900,144 @@ class rule(get_data):
         repairFactoryType_first = super().repairFactoryType_firstEnter()
         return currentNodeType,nextNodeType,vehicleHash_current,vehicleHash_first,submitCnt_current,\
               laborAmt_current,laborAmt_first,repairFactoryType_current,repairFactoryType_first
+    
+    def rule_0109010050(self):
+        plateType = super().plateType()
+        lossVehicleType = super().lossVehicleType()
+        usingType = super().usingType()
+        compulsoryPolicyNo = super().compulsoryPolicyNo()
+        commercialPolicyNo = super().commercialPolicyNo()
+        return plateType,lossVehicleType,usingType,compulsoryPolicyNo,commercialPolicyNo
+    
+    def rule_0109010042(self):
+        damageDate = super().damageDate()
+        licenseValidityDate = super().licenseValidityDate()
+        return damageDate,licenseValidityDate
+    
+    def rule_0109010041(self):
+        damageDate = super().damageDate()
+        driverLicenseValidDate = super().driverLicenseValidDate()
+        return damageDate,driverLicenseValidDate
+    
+    def rule_0109010039(self):
+        lossVehicleType = super().lossVehicleType()
+        compulsoryUsingType = super().compulsoryUsingType()
+        commercialUsingType = super().commercialUsingType()
+        compulsoryUsingTypeText = super().compulsoryUsingTypeText()
+        commercialUsingTypeText = super().commercialUsingTypeText()
+        usingType = super().usingType()
+        usingTypeText = super().usingTypeText()
+        return lossVehicleType,compulsoryUsingType,commercialUsingType,compulsoryUsingTypeText,\
+            commercialUsingTypeText,usingType,usingTypeText
+    
+    def rule_0101010020(self):
+        brandModel = super().brandModel()
+        engineNo = super().engineNo()
+        vehicleSubModelName_current = super().vehicleSubModelName_currentSub()
+        compulsoryVehicleSubModel = super().compulsoryVehicleSubModel()
+        compulsoryVehicleBrandModel = super().compulsoryVehicleBrandModel()
+        compulsoryVehicleEngineNo = super().compulsoryVehicleEngineNo()
+        commercialVehicleSubModel = super().commercialVehicleSubModel()
+        commercialVehicleBrandModel = super().commercialVehicleBrandModel()
+        commercialVehicleEngineNo = super().commercialVehicleEngineNo()
+        return brandModel,engineNo,vehicleSubModelName_current,compulsoryVehicleSubModel,compulsoryVehicleBrandModel,\
+           compulsoryVehicleEngineNo, commercialVehicleSubModel,commercialVehicleBrandModel,commercialVehicleEngineNo
+
+    def rule_0104010012(self):
+        unitPriceDiscount_current = super().claimPartList_unitPriceDiscount_currentsub()
+        partType_current = super().claimPartList_partType_currentSub()
+        refLowestPriceDiscountExcludeDiscontinuedPartMap = super().refLowestPriceDiscountExcludeDiscontinuedPartMap()
+        standardPartFlag = super().claimPartList_standardPartFlag()
+        standardPartId = super().claimPartList_standardPartId()
+        return unitPriceDiscount_current,partType_current,refLowestPriceDiscountExcludeDiscontinuedPartMap,\
+            standardPartFlag,standardPartId
+    
+    def rule_0104010016(self):
+        '''
+        注意换件项目要大于1
+        '''
+        purchasePrice = super().purchasePrice()
+        claimEstimateItemId = super().claimPartList_claimEstimateItemId()
+        partName = super().claimPartList_partName()
+        operationType = super().claimPartList_operationType_currentSub()
+        standardPartId = super().claimPartList_standardPartId()
+        partFeeDiscount = super().claimPartList_partFeeDiscount_currentSub()
+        restoreUsualFlag = super().claimPartList_restoreUsualFlag()
+        return purchasePrice,claimEstimateItemId,partName,operationType,standardPartId,\
+            partFeeDiscount,restoreUsualFlag
+    
+    def rule_0104010017(self):
+        totalEstimateAmount = super().totalEstimateAmount_currentSub()
+        vehicleMakeCode = super().vehicleMakeCode()
+        collisionPoints = super().collisionPoints()
+        lossDegree = super().lossDegree_currentSub()
+        damageReason = super().damageReason()
+        partName = super().claimPartList_partName()
+        standardPartId = super().claimPartList_standardPartId()
+        unitPriceDiscount = super().claimPartList_unitPriceDiscount_currentsub()    
+        assemblyChildPartList = super().claimPartList_assemblyChildPartList()    
+        assemblyPartRelFlag = super().claimPartList_assemblyPartRelFlag()
+        return totalEstimateAmount,vehicleMakeCode,collisionPoints,lossDegree,damageReason,partName,\
+            standardPartId,unitPriceDiscount,assemblyChildPartList,assemblyPartRelFlag
+    
+    def rule_0101010008(self):
+        lossVehicleType = super().lossVehicleType()
+        commercialCoverageList = super().commercialCoverageList()
+        damageReason = super().damageReason()
+        partName = super().claimPartList_partName()
+        standardPartId = super().claimPartList_standardPartId()
+        manualFlag = super().claimPartList_manualFlag()
+        manualMatchedUniquePart_partName = super().manualMatchedUniquePart_partName()
+        manualMatchedUniquePart_standard = super().manualMatchedUniquePart_standardId()
+        operationType_current = super().claimPartList_operationType_currentSub()
+        return lossVehicleType,commercialCoverageList,damageReason,partName,standardPartId,manualFlag,\
+            manualMatchedUniquePart_partName,manualMatchedUniquePart_standard,operationType_current
+    
+    def rule_0104010018(self):
+        floodFlag = super().floodFlag()
+        damageReason = super().damageReason()
+        vehicleSubModelCode = super().vehicleSubModelCode()
+        totalEstimateAmount = super().totalEstimateAmount_currentSub()
+        purchasePrice = super().purchasePrice()
+        claimEstimateItemId = super().claimPartList_claimEstimateItemId()
+        partName = super().claimPartList_partName()
+        standardPartId = super().claimPartList_standardPartId()
+        manualFlag = super().claimPartList_manualFlag()
+        manualMatchedUniquePart_partName = super().manualMatchedUniquePart_partName()
+        manualMatchedUniquePart_standard = super().manualMatchedUniquePart_standardId()
+        operationType_current = super().claimPartList_operationType_currentSub()
+        unitPriceDiscount = super().claimPartList_unitPriceDiscount_currentsub()
+        assemblyPartRelFlag = super().claimPartList_assemblyPartRelFlag()
+        return  floodFlag,damageReason,vehicleSubModelCode,totalEstimateAmount,purchasePrice,claimEstimateItemId,\
+            partName, standardPartId,manualFlag,manualMatchedUniquePart_partName, manualMatchedUniquePart_standard,\
+                operationType_current,unitPriceDiscount,assemblyPartRelFlag
+    
+    def rule_0104010021(self):
+        partName = super().claimPartList_partName()
+        partFeeDiscount_current = super().claimPartList_partFeeDiscount_currentSub()
+        itemTotalFeeDiscount_current = super().claimPartList_itemTotalFeeDiscount_currentSub()
+        repairFeeDiscount_current = super().claimPartList_repairFeeDiscount_currentSub()
+        paintFeeDiscount_current = super().claimPartList_paintFeeDiscount_currentSub()
+        removeFeeDiscount_current = super().claimPartList_removeFeeDiscount_currentSub()
+        operationType_current = super().claimPartList_operationType_currentSub()
+        claimpart_newpart =super().claimPartList_newItemAfterFirstVersionFlowFlowByOpMap()
+        claimpart_newlabor = super().claimPartList_newItemAfterFirstVersionFlowByLaborTypeMap()
+        claimmater_new = super().claimMaterialList_newItemAfterFirstVersionFlowByLaborTypeMap()
+        materialName = super().claimMaterialList_materialName()
+        versionType = super().versionType()
+        vehicleHash_current = super().vehicleHash_currentSub()
+        vehicleHash_first = super().vehicleHash_firstVersionEstSubmitValue()
+        return partName,partFeeDiscount_current,itemTotalFeeDiscount_current,repairFeeDiscount_current,\
+            paintFeeDiscount_current,removeFeeDiscount_current,operationType_current,claimpart_newpart,\
+                claimpart_newlabor,claimmater_new,materialName,versionType,vehicleHash_current,vehicleHash_first
 
 if __name__ == '__main__':
-    claim_no = 'acc_20210414_008'
+    '''
+    claim_no的值为定损单号时,可以查该定损单最后一次报文的取值情况;
+    claim_no的值为audit_report_id时,可以查该报文的取值情况
+    '''
+    claim_no = 'acc_20210416_001'
     rule = rule(claim_no)
-    rule_data = rule.rule_0107010033()
+    rule_data = rule.rule_0104010018()
     for i in range(len(rule_data)):
         print(rule_data[i])
