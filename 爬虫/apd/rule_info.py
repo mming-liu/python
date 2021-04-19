@@ -1,10 +1,7 @@
 import json
 from sys import path
 from jsonpath import jsonpath
-from jsonpath_ng.jsonpath import JSONPath
 import requests
-from jsonpath_ng import parse
-from bs4 import BeautifulSoup
 import cx_Oracle
 
 # def rule_info():
@@ -27,13 +24,13 @@ class check_date():
 
     def get_fullpath(self):
         all_paths = self.rule_info()
-        fullpath = jsonpath(all_paths,expr= '$.fieldDocList[*].fullJsonPath')
-        new_list = []
-        for i in fullpath:
+        fullpaths = jsonpath(all_paths,expr= '$.fieldDocList[*].fullJsonPath')
+        paths = []
+        for i in fullpaths:
             if 'List' in i:
                 i = i.replace('List','List[*]')
-            new_list.append(i)
-        return new_list
+            paths.append(i)
+        return paths
     
     def get_name (self):
         all_paths = self.rule_info()
