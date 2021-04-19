@@ -1036,8 +1036,8 @@ if __name__ == '__main__':
     claim_no的值为定损单号时,可以查该定损单最后一次报文的取值情况;
     claim_no的值为audit_report_id时,可以查该报文的取值情况
     '''
-    claim_no = 'acc_20210416_001'
+    claim_no = 'acc_20210419_001'
     rule = rule(claim_no)
-    rule_data = rule.rule_0104010018()
+    rule_data = rule.rule_0107010033()
     for i in range(len(rule_data)):
         print(rule_data[i])
