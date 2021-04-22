@@ -1,3 +1,4 @@
+import os,sys
 from json.encoder import JSONEncoder
 import jsonpath 
 from jsonpath_ng import parse
@@ -6,13 +7,28 @@ import json
 import cx_Oracle
 from requests.api import post, request
 from decimal  import Decimal
-
+# import claimPush.txt
 from requests.models import Response
+import logging
 
 class open_file():
+    def __init__(self) -> None:
+        pass
+
+    def resource_path(self,relative_path):
+        if getattr(sys, 'frozen', False): #是否Bundle Resource
+            base_path = sys._MEIPASS
+        else:
+            base_path = os.path.abspath(".")
+        return os.path.join(base_path,relative_path)
+
     def open_txt(filename):
     # 打开报文文件，读取报文内容，并转换为字典（dict）型数据
-        path = 'C:/Users/ee54/Desktop/APD/5.0报文/' + filename
+        # path = 'C:/Users/ee54/Desktop/APD/5.0报文/' + filename
+        curr_path=os.path.dirname(__file__)
+        # curr_path = os.path.abspath(".") 
+        # print(curr_path)
+        path = os.path.join(curr_path,filename)
         with open(path,'r',encoding='utf-8') as f:
             data = f.read()
             return eval(data)
@@ -181,8 +197,8 @@ class claimStatus():
 
 class do_task():
     def __init__(self,claim_no):
-        self.message_a = open_file.open_txt('APD5.0报文.txt')
-        self.message_b = open_file.open_txt('5.0状态同步接口.txt')
+        self.message_a = open_file.open_txt('claimPush.txt')
+        self.message_b = open_file.open_txt('ClaimInfoSync.txt')
         self.a = claimPush(claim_no)
         self.b = claimStatus(claim_no)
     
@@ -274,27 +290,56 @@ class do_task():
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210422_001'
-    push = do_task(claim_no)
+    # try:
+        claim_no = input('请输入定损单号：')
 
-    # 推单子到定损
-    # response = push.push_task()
+        '''
+        1：新增定损单
+        2：定损单推送到核价
+        3：定损单推送到核损，不经过核价
+        4：定损单推送到核价，经过核价
+        5：定损单从定损推送到复勘审核
+        6：定损单从核损推送到复勘审核
+        7：定损单退回到定损，且修改损失项目
+        8：定损单退回到定损，不修改损失项目
+        9：定损单从核损推送到定核损结束
+        10：定损单从复勘审核推送到定核损结束
+        11：核损预审核
+        '''
+        a = input('请输入你要进行的操作,多个操作时，请用英文逗号隔开：')
+        try:
+            list = a.split(',')
+        except :
+            print('请检查是否输入正确')
 
-    # 单子提交到核价
-    # response = push.push_priceCheck()
+        push = do_task(claim_no)
+        for i in list:
+            if i == '1':
+                response = push.push_task()
+            elif i == '2':
+                response = push.push_priceCheck()
+            elif i == '3':
+                response = push.push_audit('02')
+            elif i == '4':
+                response = push.push_audit('01')
+            elif i == '5':
+                response = push.push_douAudit('2')
+            elif i == '6':
+                response = push.push_douAudit('1')
+            elif i == '7':
+                response = push.back_push('02',input('请输入目前环节：'),'01')
+            elif i == '8':
+                response = push.back_push('01',input('请输入目前环节：'),'01')
+            elif i == '9':
+                response = push.task_done('1')
+            elif i == '10':
+                response = push.task_done('2')
+            elif i == '11':
+                response = push.pre_audit()
 
-    # 单子提交到核损
-    response = push.push_audit('02')
-    # response = push.pre_audit()
-
-    # 单子提交到复勘审核
-    # response = push.push_douAudit('2')
-
-    # 单子退回定损
-    response = push.back_push('02','03','01')
-
-    # 定核损结束
-    # response = push.task_done('1')
-    print(response)
-
-    # print(push.change())
+        print(response)
+    # except Exception as e:
+    #     curr_path=os.path.dirname(__file__)
+    #     logger = logging.getLogger(__name__)
+    #     logger.info(curr_path)
+    #     print(e)

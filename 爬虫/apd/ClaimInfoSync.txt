@@ -1,0 +1,11 @@
+{
+    "accidentNo": "acc_20210323_001",
+    "claimNo": "acc_20210323_001",
+    "userAccount": "oy",
+    "appraiserAccountName": "桂林",
+    "operateCompanyCode": "03000000",
+    "nodeType": "01",
+    "nextNodeType": "03",
+    "remark": "",
+    "action": "1"
+}

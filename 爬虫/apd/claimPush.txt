@@ -1,0 +1,146 @@
+{
+    "requestType": "1",
+    "tc": "default",
+    "userAccount": "oy",
+    "accidentNo": "acc_20210324_001",
+    "claimNo": "acc_20210324_001",
+    "reopenFlag": "0",
+    "nodeType": "01",
+    "nextNodeType": "01",
+    "auditFlag": "1",
+    "claimInfo": {
+        "assignDate": "2020-02-02 15:12:11",
+        "claimSource": "pc",
+        "estimateCompanyCode": "03000000",
+        "operateCompanyCode": "03000000",
+        "entireSalvage": 0,
+        "constructiveTotalLoss": "",
+        "estimateAmount": 0,
+        "rescueFee": 0,
+        "entrustflag":"1",
+        "coverages": [{
+                "coverageName": "A-机动车损失保险",
+                "coverageCode": "A"
+            },
+            {
+                "coverageName": "G1-全车盗抢保险",
+                "coverageCode": "G1"
+            }
+        ],
+        "quickPassFlag": "1"
+    },
+    "vehicleBaseInfo": {
+        "lossVehicleType": "11",
+        "vehicleCategory": "A0",
+        "usingType": "8B",
+        "vin": "LBEFDBFB3AY032122",
+        "plateType": "02",
+        "currentValue": 18,
+        "purchasePrice": 19,
+        "floodFlag": "0",
+        "robberyFlag": "0",
+        "drivingCarType": "B1"
+    },
+    "accidentInfo": {
+        "reportDate": "2020-02-02 15:12:11",
+        "damageDate": "2020-02-02 15:12:11",
+        "damageReason": "A01",
+        "compulsorySelfPayFlag": "0",
+        "bodyInjuryFlag": "1",
+        "subrogationExisted": "1",
+        "dutyTypeRatio": 0.7,
+        "accidentType": "2"
+    },
+    "accPolicies": [{
+            "policyNo": "policyNO2",
+            "policyType": "02",
+            "policyBusinessSource": "业务来源",
+            "policyCompanyName": "CIC",
+            "policySalesMan": "霍华德",
+            "policyStartDate": "2021-02-07 12:00:00",
+            "policyEndDate": "2021-08-23 12:00:00",
+            "vehiclePlateType": "02",
+            "vehiclePlateNo": "黑B52DJ8",
+            "vehiclePlateColor": "01",
+            "vehicleCarKindCode": "A0",
+            "vehicleUseNatureCode": "82",
+            "vehicleOwner": "owner",
+            "vehicleFirstRegisterDate": "2021-02-07 12:00:00",
+            "vehicleBrandName": "01",
+            "vehicleSubModel": "嘉年华 两厢 2009款 1.3L 手动 经典版",
+            "vehicleEngineNo": " F06L21912",
+            "vehicleVin": "LFPM4ACC991E05608",
+            "vehicleBodyColor": "黑色",
+            "vehiclePurchasePrice": "162000",
+            "vehicleRunArea": "车道",
+            "vehicleAddDeviceFlag": "1",
+            "insuredAmount": 100,
+            "vehicleBrandModel": "",
+            "accPolicyDrivers": "夏秋",
+            "renewalFlag": "1",
+            "accPolicyCoverages": [{
+                    "coverageCode": "A",
+                    "coverageName": "机动车损失保险",
+                    "insuredLiability": 2000000,
+                    "coverageStartDate": "2021-02-07 12:00:00",
+                    "coverageEndDate": "2021-08-23 12:00:00"
+                },
+                {
+                    "coverageName": "机动车第三者责任险",
+                    "coverageStartDate": "2021-02-07 12:00:00",
+                    "coverageEndDate": "2021-08-23 12:00:00",
+                    "insuredLiability": 0,
+                    "coverageCode": "B"
+                }
+            ]
+        },
+        {
+            "policyNo": "policyNO1",
+            "policyType": "01",
+            "policyBusinessSource": "业务来源",
+            "policyCompanyName": "CIC",
+            "policySalesMan": "霍华德",
+            "policyStartDate": "2021-02-07 12:00:00",
+            "policyEndDate": "2021-08-23 12:00:00",
+            "vehiclePlateType": "02",
+            "vehiclePlateNo": "黑B52DJ8",
+            "vehiclePlateColor": "01",
+            "vehicleCarKindCode": "A0",
+            "vehicleUseNatureCode": "82",
+            "vehicleOwner": "owner",
+            "vehicleFirstRegisterDate": "2021-02-07 12:00:00",
+            "vehicleBrandName": "01",
+            "vehicleSubModel": "嘉年华 两厢 2009款 1.3L 手动 经典版",
+            "vehicleEngineNo": " F06L21912",
+            "vehicleVin": "LFPM4ACC991E05608",
+            "vehicleBodyColor": "黑色",
+            "vehiclePurchasePrice": "162000",
+            "vehicleRunArea": "车道",
+            "vehicleAddDeviceFlag": "1",
+            "insuredAmount": 100,
+            "vehicleBrandModel": "",
+            "accPolicyDrivers": "夏秋",
+            "renewalFlag": "1",
+            "accPolicyCoverages": [{
+                    "coverageCode": "A",
+                    "coverageName": "机动车损失保险",
+                    "insuredLiability": 2000000,
+                    "coverageStartDate": "2021-02-07 12:00:00",
+                    "coverageEndDate": "2021-08-23 12:00:00"
+                },
+                {
+                    "coverageName": "机动车第三者责任险",
+                    "coverageStartDate": "2021-02-07 12:00:00",
+                    "coverageEndDate": "2021-08-23 12:00:00",
+                    "insuredLiability": 0,
+                    "coverageCode": "B"
+                }
+            ]
+        }
+    ],
+    "repairFactoryInfo": {
+        "repairFactoryCode": "205731206011",
+        "repairFactoryName": "北京合兴鑫源汽车配件中心",
+        "repairFactoryType": "1"
+    }
+}
