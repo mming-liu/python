@@ -1,3 +1,4 @@
+# This Python file uses the following encoding: utf-8
 import os,sys
 from json.encoder import JSONEncoder
 import jsonpath 
@@ -7,13 +8,10 @@ import json
 import cx_Oracle
 from requests.api import post, request
 from decimal  import Decimal
-# import claimPush.txt
-from requests.models import Response
-import logging
 
 class open_file():
-    def __init__(self) -> None:
-        pass
+    # def __init__(self) -> None:
+    #     pass
 
     def resource_path(self,relative_path):
         if getattr(sys, 'frozen', False): #是否Bundle Resource
