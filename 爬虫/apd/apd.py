@@ -273,7 +273,7 @@ class do_task():
         return response.json()
     
 if __name__ == '__main__':
-    claim_no = 'acc_20210423_001'
+    claim_no = 'acc_20210428_002'
     push = do_task(claim_no)
 
     # 推单子到定损
