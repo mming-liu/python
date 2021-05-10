@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="my learn file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/apd/apd.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/apd/apd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫/apd/rule_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/apd/rule_info.py" afterDir="false" />
-    </list>
+    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="my learn file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,17 +109,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -371,6 +355,9 @@
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/apd" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -490,12 +477,12 @@
     <list>
       <item itemvalue="App Engine server.python" />
       <item itemvalue="Django Server.python" />
+      <item itemvalue="Django tests.Test: " />
       <item itemvalue="Python.HackRank1" />
       <item itemvalue="Python.滑块1" />
       <item itemvalue="Python.toutiao" />
       <item itemvalue="Python.zhihu" />
       <item itemvalue="Python.第十四章" />
-      <item itemvalue="Django tests.Test: " />
       <item itemvalue="Python.apd" />
     </list>
     <recent_temporary>
@@ -572,6 +559,7 @@
       <workItem from="1620613188837" duration="1748000" />
       <workItem from="1620616368711" duration="482000" />
       <workItem from="1620616970552" duration="958000" />
+      <workItem from="1620622254150" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="my learn file">
       <created>1601453512548</created>
