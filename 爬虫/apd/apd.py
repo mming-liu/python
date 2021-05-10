@@ -281,7 +281,7 @@ if __name__ == '__main__':
     push = do_task(claim_no)
 
     # 推单子到定损
-    response = push.push_task()
+    # response = push.push_task()
 
     # 单子提交到核价
     # response = push.push_priceCheck()
