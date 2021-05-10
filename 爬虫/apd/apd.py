@@ -284,7 +284,7 @@ if __name__ == '__main__':
     # response = push.push_task()
 
     # 单子提交到核价
-    # response = push.push_priceCheck()
+    response = push.push_priceCheck()
 
     # 单子提交到核损
     # response = push.push_audit('02')
