@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/爬虫/douban.py" afterDir="false" />
+    <list default="true" id="898e1e03-99ad-4d47-9c45-2bf0807e2f73" name="Default Changelist" comment="my learn file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/apd/apd.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/apd/apd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/apd/rule_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/apd/rule_info.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,14 +72,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.documentation.PythonDocumentationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/第一部分" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -97,7 +105,7 @@
       <recent name="E:\pyhton\爬虫\learn" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.douban">
+  <component name="RunManager" selected="App Engine server.python">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -106,6 +114,17 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -442,7 +461,7 @@
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\ProgramData\Python 3.8.5\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -495,15 +514,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.douban" />
-        <item itemvalue="Python.zhihu" />
-        <item itemvalue="Python.toutiao" />
-        <item itemvalue="Python.run" />
-        <item itemvalue="Python.re" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="App Engine server.python" />
+      <item itemvalue="Django Server.python" />
+      <item itemvalue="Python.HackRank1" />
+      <item itemvalue="Python.滑块1" />
+      <item itemvalue="Python.douban" />
+      <item itemvalue="Python.re" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.toutiao" />
+      <item itemvalue="Python.zhihu" />
+      <item itemvalue="Python.第十四章" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -567,6 +589,9 @@
       <workItem from="1610348046554" duration="654000" />
       <workItem from="1613787932645" duration="4955000" />
       <workItem from="1613799693585" duration="386000" />
+      <workItem from="1620612749386" duration="118000" />
+      <workItem from="1620612900316" duration="255000" />
+      <workItem from="1620613188837" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="my learn file">
       <created>1601453512548</created>
@@ -734,223 +759,8 @@
     <MESSAGE value="my learn file" />
     <option name="LAST_COMMIT_MESSAGE" value="my learn file" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="474" y="251" key="#Chrome_Settings" timestamp="1605607282001">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="474" y="251" key="#Chrome_Settings/0.0.1366.728@0.0.1366.728" timestamp="1605607282001" />
-    <state x="418" y="186" key="#Notifications" timestamp="1608615974900">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="418" y="186" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1608615974900" />
-    <state x="275" y="4" key="#Plugins" timestamp="1608616239533">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="4" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1608616239533" />
-    <state x="471" y="149" key="#Web_Browsers" timestamp="1605753911030">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="471" y="149" key="#Web_Browsers/0.0.1366.728@0.0.1366.728" timestamp="1605753911030" />
-    <state x="513" y="218" key="#com.intellij.debugger.actions.ViewTextAction" timestamp="1606295915363">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="513" y="218" key="#com.intellij.debugger.actions.ViewTextAction/0.0.1366.728@0.0.1366.728" timestamp="1606295915363" />
-    <state x="427" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606122219002">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="427" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1606122219002" />
-    <state x="281" y="0" key="CommitChangelistDialog2" timestamp="1610348390462">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="281" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610348390462" />
-    <state width="793" height="466" key="DebuggerActiveHint" timestamp="1605835860331">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="793" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1605835860331" />
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1606295920116">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1606295920116" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1609148634908">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1609148634908" />
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom" timestamp="1613791559373">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613791559373" />
-    <state width="1323" height="166" key="GridCell.Tab.0.center" timestamp="1613791559373">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613791559373" />
-    <state width="1323" height="166" key="GridCell.Tab.0.left" timestamp="1613791559372">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613791559372" />
-    <state width="1323" height="166" key="GridCell.Tab.0.right" timestamp="1613791559373">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="166" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613791559373" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1613791436115">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613791436115" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1613791436114">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1613791436114" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1613791436114">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1613791436114" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1613791436114">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1613791436114" />
-    <state x="263" y="106" key="IDE.errors.dialog" timestamp="1609210720794">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="263" y="106" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1609210720794" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1613792333988">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1613792333988" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610348799392">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1610348799392" />
-    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1606296514695">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1606296514695" />
-    <state x="225" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606120845344">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="225" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1606120845344" />
-    <state x="274" y="0" key="new project wizard" timestamp="1610349066516">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="274" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1610349066516" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1605236963795">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1605236963795" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606377065570">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606377065570" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exercise/HackRank1.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exercise/HackRank1.py</url>
-          <line>73</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/zhihu.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/爬虫/zhihu.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/maoyan/maoyan.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/验证码/滑块1.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/zhihu/zhihu.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/zhihu/zhihu.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/zhihu/zhihu.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/run.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/run.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/run.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="71" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/试错/run.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$HackRank2.coverage" NAME="HackRank2 Coverage Results" MODIFIED="1602576091053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$write_readCookies.coverage" NAME="write&amp;readCookies Coverage Results" MODIFIED="1604651802792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$____1_.coverage" NAME="最小公倍数 Coverage Results" MODIFIED="1602645320201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$login_direct.coverage" NAME="login_direct Coverage Results" MODIFIED="1604975688790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smart_login-master/baidu" />
-    <SUITE FILE_PATH="coverage/python$baidu__1_.coverage" NAME="baidu Coverage Results" MODIFIED="1605083905908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错" />
-    <SUITE FILE_PATH="coverage/python$2.coverage" NAME="练习2 Coverage Results" MODIFIED="1602228340330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$qiushi.coverage" NAME="qiushi Coverage Results" MODIFIED="1605852862870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/qiuShiBaiKe" />
-    <SUITE FILE_PATH="coverage/python$analy.coverage" NAME="analy Coverage Results" MODIFIED="1605064209094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/analysis" />
-    <SUITE FILE_PATH="coverage/python$run.coverage" NAME="run Coverage Results" MODIFIED="1606296794829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错" />
-    <SUITE FILE_PATH="coverage/python$new_serch.coverage" NAME="new_serch Coverage Results" MODIFIED="1605752854578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/baidu" />
-    <SUITE FILE_PATH="coverage/python$zhihu.coverage" NAME="zhihu Coverage Results" MODIFIED="1606286669981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/zhihu" />
-    <SUITE FILE_PATH="coverage/python$douban.coverage" NAME="douban Coverage Results" MODIFIED="1613791559352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$Learn_Python.coverage" NAME="Learn-Python Coverage Results" MODIFIED="1600911256826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$.coverage" NAME="爬虫 Coverage Results" MODIFIED="1603262394456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$toutiao.coverage" NAME="toutiao Coverage Results" MODIFIED="1609221783948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/toutiao" />
-    <SUITE FILE_PATH="coverage/python$HackRank3.coverage" NAME="HackRank3 Coverage Results" MODIFIED="1604564805740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise" />
-    <SUITE FILE_PATH="coverage/python$baidusearch_image.coverage" NAME="baidusearch_image Coverage Results" MODIFIED="1605854357081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/baidu" />
-    <SUITE FILE_PATH="coverage/python$learn_python1.coverage" NAME="learn-python1 Coverage Results" MODIFIED="1600842890643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$base.coverage" NAME="base Coverage Results" MODIFIED="1604653582581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$maoyan.coverage" NAME="maoyan Coverage Results" MODIFIED="1605865105435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/maoyan" />
-    <SUITE FILE_PATH="coverage/python$HackRank1.coverage" NAME="HackRank1 Coverage Results" MODIFIED="1602755816855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$new_2.coverage" NAME="new 2 Coverage Results" MODIFIED="1602838445110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Programs/Python/Python38-32" />
-    <SUITE FILE_PATH="coverage/python$1.coverage" NAME="滑块1 Coverage Results" MODIFIED="1606381103390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错/验证码" />
-    <SUITE FILE_PATH="coverage/python$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1605060755143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$45.coverage" NAME="多维数组逆时针转动45度 Coverage Results" MODIFIED="1603071891087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise/learn" />
-    <SUITE FILE_PATH="coverage/python$re.coverage" NAME="re Coverage Results" MODIFIED="1606294550201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/试错" />
-    <SUITE FILE_PATH="coverage/python$__1_.coverage" NAME="公约数 (1) Coverage Results" MODIFIED="1602645888464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
-    <SUITE FILE_PATH="coverage/python$python.coverage" NAME="python Coverage Results" MODIFIED="1600681896422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
