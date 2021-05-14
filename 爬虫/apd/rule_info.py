@@ -70,7 +70,7 @@ class rule_date(check_date, get_message):
             data = jsonpath(message, expr=path)
             datas.append(data)
 
-        return dict(zip(names, datas))
+        return dict(zip(paths, datas))
 
 
 if __name__ == '__main__':
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     claim_no的值为定损单号时,可以查该定损单最后一次报文的取值情况;
     claim_no的值为audit_report_id时,可以查该报文的取值情况
     '''
-    a = rule_date('0104010028', 'acc_20210510_001')
+    a = rule_date('0105010024', 'acc_20210510_005')
     rule_values = a.rule_data()
     # print(len(rule_values))
     for i in rule_values:

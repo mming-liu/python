@@ -277,14 +277,14 @@ class do_task():
 
 
 if __name__ == '__main__':
-    claim_no = 'acc_20210510_001'
+    claim_no = 'acc_20210514_002'
     push = do_task(claim_no)
 
     # 推单子到定损
-    # response = push.push_task()
+    response = push.push_task()
 
     # 单子提交到核价
-    response = push.push_priceCheck()
+    # response = push.push_priceCheck()
 
     # 单子提交到核损
     # response = push.push_audit('02')
