@@ -15,18 +15,6 @@ class Solution:
         
         # return list
 
-        # list = []
-        # num = ''
-        # for digit in digits:
-        #     num.join(str(digit))
-        
-        # num = str(int(num)+1)
-
-        # for i in num:
-        #     list.append(int(i))
-        
-        # return list
-
         num = int(''.join([str(s) for s in digits]))+1
         return [int(s) for s in str(num)]
 
