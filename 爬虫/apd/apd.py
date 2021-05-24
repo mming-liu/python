@@ -90,15 +90,15 @@ class claimPush():
             if lenth >= 1:
                 for i in range(1, lenth + 1):
                     # print(i, i % 2)
-                    if i % 2 == 1:
-                        path = '$.claimParts[' + str(i - 1) + '].partQuantity'
-                        part_quantity = partQuantity[i - 1] + 2
-                        jsonpath_expr = parse(path)
-                        jsonpath_expr.find(data)
-                        updated_json = jsonpath_expr.update(data, part_quantity)
-                    else:
+                    # if i % 2 == 1:
+                    #     path = '$.claimParts[' + str(i - 1) + '].partQuantity'
+                    #     part_quantity = partQuantity[i - 1] + 2
+                    #     jsonpath_expr = parse(path)
+                    #     jsonpath_expr.find(data)
+                    #     updated_json = jsonpath_expr.update(data, part_quantity)
+                    # else:
                         path = '$.claimParts[' + str(i - 1) + '].unitPrice'
-                        unit_Price = unitPrice[i - 1] + 1000
+                        unit_Price = unitPrice[i - 1] + 100.01
                         unit_Price = float(Decimal(unit_Price).quantize(Decimal("0.0000")))
                         jsonpath_expr = parse(path)
                         jsonpath_expr.find(data)
@@ -112,7 +112,7 @@ class claimPush():
                     # print(laborValue2.index(m))
                     path = '$.claimLabors[' + str(laborValue2.index(m)) + '].laborFee'
                     # print(path)
-                    paint_fee = laborValue1[laborValue2.index(m)] + 1000
+                    paint_fee = laborValue1[laborValue2.index(m)] + 100.01
                     jsonpath_expr = parse(path)
                     jsonpath_expr.find(data)
                     updated_json = jsonpath_expr.update(data, paint_fee)
@@ -121,7 +121,7 @@ class claimPush():
                 elif m == '02' or m == '04':
                     path = '$.claimLabors[' + str(laborValue2.index(m)) + '].laborFeeAfterDiscount'
                     # print(path)
-                    labor_fee = laborValue1[laborValue2.index(m)] + 1000
+                    labor_fee = laborValue1[laborValue2.index(m)] + 100.01
                     jsonpath_expr = parse(path)
                     jsonpath_expr.find(data)
                     updated_json = jsonpath_expr.update(data, labor_fee)
@@ -132,7 +132,7 @@ class claimPush():
         try:
             for m in repairLabors:
                 path = '$.claimOuterRepairLabors[' + str(repairLabors.index(m)) + '].outerRepairFee'
-                repairLabors = repairLabors[repairLabors.index(m)] + 1000
+                repairLabors = repairLabors[repairLabors.index(m)] + 100.01
                 jsonpath_expr = parse(path)
                 jsonpath_expr.find(data)
                 updated_json = jsonpath_expr.update(data, repairLabors)
@@ -144,19 +144,19 @@ class claimPush():
             if lenth >= 1:
                 for i in range(1, lenth + 1):
                     # print(i, i % 2)
-                    if i % 2 == 1:
+                    # if i % 2 == 1:
                         path = '$.claimMaterials[' + str(i - 1) + '].materialQuantity'
                         material_quantity = materialQuantity[i - 1] + 2
                         jsonpath_expr = parse(path)
                         jsonpath_expr.find(data)
-                        updated_json = jsonpath_expr.update(data, material_quantity)
-                    else:
-                        path = '$.claimMaterials[' + str(i - 1) + '].materialFee'
-                        material_Price = materialFee[i - 1] + 1000
-                        material_Price = float(Decimal(materialFee).quantize(Decimal("0.0000")))
+                        # updated_json = jsonpath_expr.update(data, material_quantity)
+                    # else:
+                        path = '$.claimMaterials[' + str(i - 1) + '].unitPrice'
+                        material_Price = unitPrice[i - 1] + 100.01
+                        material_Price = float(Decimal(unitPrice).quantize(Decimal("0.0000")))
                         jsonpath_expr = parse(path)
                         jsonpath_expr.find(data)
-                        updated_json = jsonpath_expr.update(data, material_Price)
+                        updated_json = jsonpath_expr.update(data, material_Price,material_quantity)
         except:
             pass
         return data
@@ -277,17 +277,17 @@ class do_task():
 
 
 if __name__ == '__main__':
-    claim_no = 'acc_20210514_002'
+    claim_no = 'acc_20210520_003'
     push = do_task(claim_no)
 
     # 推单子到定损
-    response = push.push_task()
+    # response = push.push_task()
 
     # 单子提交到核价
     # response = push.push_priceCheck()
 
     # 单子提交到核损
-    # response = push.push_audit('02')
+    response = push.push_audit('02')
     # response = push.pre_audit()
 
     # 单子提交到复勘审核
