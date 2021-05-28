@@ -10,7 +10,7 @@ class open_file():
 
     def open_txt(self,filename = '推单子报文-最新.txt'):
         # 打开报文文件，读取报文内容，并转换为字典（dict）型数据
-        path = 'D:/python/爬虫/人伤/' + filename
+        path = 'D:/git/python/爬虫/人伤/' + filename
         with open(path, 'r', encoding='utf-8') as f:
             data = f.read()
             global false, null, true
@@ -27,22 +27,21 @@ class casualtyPush():
                    'content-type': 'application/json;charset=UTF-8'
                    }
         
-        # path = '$.accidentInfo.accidentNo'
-        # accidentNo = self.accidentNo
-        # jsonpath_expr = parse(path)
-        # jsonpath_expr.find(data)
-        # updated_json = jsonpath_expr.update(data, accidentNo)
+        path = '$.accidentInfo.accidentNo'
+        accidentNo = self.accidentNo
+        jsonpath_expr = parse(path)
+        jsonpath_expr.find(data)
+        updated_json = jsonpath_expr.update(data, accidentNo)
         # print(data)
         data['taskNo'] = self.accidentNo
         data['lightInquiryUniqueId'] = self.accidentNo
 
-        path = '$.accLossInfo.accidentType'
-        accidentType = '002'
-        jsonpath_expr = parse(path)
-        jsonpath_expr.find(data)
-        data = jsonpath_expr.update(data, accidentType)
-        print(data)
-
+        # # accidentType ： AccidentType002 多车事故，AccidentType001 单车事故
+        # path = '$.accLossInfo.accidentType'
+        # accidentType = 'AccidentType001'
+        # jsonpath_expr = parse(path)
+        # jsonpath_expr.find(data)
+        # data = jsonpath_expr.update(data, accidentType)
 
         data = json.dumps(data, ensure_ascii=False)
         response = requests.post(url, headers=headers, data=data.encode('utf-8'))
@@ -53,6 +52,6 @@ if __name__ == '__main__':
     # data = a.open_txt('推单子报文-最新.txt')
     # print(data)
 
-    accidentNo = 'acc_20210524_005'
+    accidentNo = 'acc_20210528_002'
     response = casualtyPush(accidentNo).claim_push()
     print(response.text)

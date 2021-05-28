@@ -1,7 +1,7 @@
 {
   "accLossInfo": {
     "absoluteDeductibleRate": 0,
-    "accidentType": "pe",
+    "accidentType": "AccidentType002",
     "dutyCertProcedure": "01",
     "dutyCertType": "02",
     "dutyRatio": 100,
