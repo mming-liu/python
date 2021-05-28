@@ -112,7 +112,7 @@ params = re.findall(r'var [\w]{6} = \'([\w]+?)\';',res2.text)
 print(params)
  
 # 请求下载地址
-url3 = 'https://wws.lanzoui.com/iQUI9kdrgqh/fn?UjQHbV4wVzYEa1ExBmBWZwRqAjBQKQdxUmhXYAVvVGcHNVs9D2sHZAVjCmkFZQcgVHgPNwBuUXVVJQNgV2lWJFI7BzdebVdoBDdRfgZvVjEEEgJvUEE_c/ajaxm.php'
+url3 = 'https://www.lanzous.com/ajaxm.php'
 data = {
     'action':'down_process',
     'file_id':params[0],
