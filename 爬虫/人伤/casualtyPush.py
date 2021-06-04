@@ -52,6 +52,6 @@ if __name__ == '__main__':
     # data = a.open_txt('推单子报文-最新.txt')
     # print(data)
 
-    accidentNo = 'acc_20210528_002'
+    accidentNo = 'acc_20210602_001'
     response = casualtyPush(accidentNo).claim_push()
     print(response.text)
