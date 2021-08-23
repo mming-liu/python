@@ -21,7 +21,7 @@ class claimPush():
         self.claim_no = claim_no
 
     def claim_push(self, data, nodeType, nextNodeType):
-        url = 'http://192.168.200.161:10007/web-suite/services/restful/claim/pushClaim'
+        url = 'http://192.168.200.173:10007/apd-web/views/testEncryptRequest.jsp'
         headers = {'authorization': 'gzqxW_sBQiaV0PlPKp5cG1QbduSclbAyx6QMtEXZcA07WLWk20bEx4vT',
                    'content-type': 'application/json;charset=UTF-8'
                    }
@@ -47,8 +47,10 @@ class claimPush():
         # 使用cursor()方法获取操作游标
         cursor = conn.cursor()
         # 使用execute方法执行SQL语句
-        result = cursor.execute(
-            " select  request_param from t_interface_log  where business_no = " + "'" + self.claim_no + "'" + " and interface_code = 'ClaimInfoSync' order by start_date desc")
+        sql = "select request_param from t_interface_log  where business_no = '{}' and interface_code = " \
+              "'ClaimInfoSync' order by start_date desc".format(self.claim_no)
+        print(sql)
+        result = cursor.execute(sql)
 
         # 使用fetchone()方法获取一条数据
         data = cursor.fetchone()
@@ -167,7 +169,7 @@ class claimStatus():
         self.claim_no = claim_no
 
     def claim_task(self, data, nodeType, nextNodeType):
-        url = 'http://192.168.200.161:10007/web-suite/services/restful/claimStatus/claimStatusSync'
+        url = 'http://192.168.200.161:10007/web-suite/views/testEncryptRequest.jsp'
         headers = {'Authorization': 'gzqxW_sBQiaV0PlPKp5cG1QbduSclbAyx6QMtEXZcA07WLWk20bEx4vT',
                    'Content-Type': 'application/json;charset=UTF-8'}
 
@@ -199,18 +201,18 @@ class do_task():
     def push_task(self):
         # 定损单推送
         response = self.a.claim_push(self.message_a, '01', '01')
-        return response.json()
+        return response.json
 
     def push_priceCheck(self):
-        '''提交到核价'''
+        """提交到核价"""
         response = self.b.claim_task(self.message_b, '01', '02')
         return response.json()
 
     def push_audit(self, type):
-        '''#提交到核损：
+        """#提交到核损：
             01,先提交核价，再提交到核损。
             02,不经过核价，直接提交到核损
-        '''
+        """
         if type == '01':
             response = self.b.claim_task(self.message_b, '01', '02')
             response = self.b.claim_task(self.message_b, '02', '03')
@@ -225,10 +227,10 @@ class do_task():
         return response.json()
 
     def push_douAudit(self, type):
-        '''
+        """
         type = 1,从核损提交到复勘审核
         type = 2,从定损提交到复勘审核
-        '''
+        """
         if type == '1':
             self.push_audit()
             self.b.claim_task(self.message_b, '03', '06')
@@ -277,17 +279,17 @@ class do_task():
 
 
 if __name__ == '__main__':
-    claim_no = 'acc_20210520_003'
+    claim_no = 'acc_20210817_001'
     push = do_task(claim_no)
 
     # 推单子到定损
-    # response = push.push_task()
+    response = push.push_task()
 
     # 单子提交到核价
     # response = push.push_priceCheck()
 
     # 单子提交到核损
-    response = push.push_audit('02')
+    # response = push.push_audit('02')
     # response = push.pre_audit()
 
     # 单子提交到复勘审核

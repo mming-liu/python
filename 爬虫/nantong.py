@@ -7,10 +7,10 @@ import xlsxwriter
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
-driver = webdriver.Chrome(chrome_options=chrome_options) 
-# driver = webdriver.Chrome()
+# driver = webdriver.Chrome(chrome_options=chrome_options) 
+driver = webdriver.Chrome()
 # time.sleep(10)
-driver.get('http://sydwbm.rsj.nantong.gov.cn/Home/RegBrowse?examid=06210308134548')
+driver.get('http://sydwbm.rsj.nantong.gov.cn')
 select = driver.find_element_by_name('jobAreaList')
 jobAreaLists = select.find_elements_by_tag_name('option')
 area_list = []

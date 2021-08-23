@@ -14,7 +14,8 @@ class open_file():
         with open(path, 'r', encoding='utf-8') as f:
             data = f.read()
             global false, null, true
-            false = null = true = ''
+            false = null = true = ''\
+            # print(data)
             return eval(data)
 
 class casualtyPush():
@@ -43,6 +44,20 @@ class casualtyPush():
         # jsonpath_expr.find(data)
         # data = jsonpath_expr.update(data, accidentType)
 
+        # # accidentDutyType ： 事故责任
+        # path = '$.accidentDutyType'
+        # accidentDutyType = ''
+        # jsonpath_expr = parse(path)
+        # jsonpath_expr.find(data)
+        # data = jsonpath_expr.update(data, accidentDutyType)
+
+        # # 未勾选查勘中的任意一项是参考信息中“查勘现场记录”字段，报文中“vehicleSurveyOnsiteRecord”字段值为空实现
+        # path = '$.accLossInfo.vehicleSurveyOnsiteRecord'
+        # vehicleSurveyOnsiteRecord = 'AccidentType001'
+        # jsonpath_expr = parse(path)
+        # jsonpath_expr.find(data)
+        # data = jsonpath_expr.update(data, vehicleSurveyOnsiteRecord)
+
         data = json.dumps(data, ensure_ascii=False)
         response = requests.post(url, headers=headers, data=data.encode('utf-8'))
         return response
@@ -52,6 +67,6 @@ if __name__ == '__main__':
     # data = a.open_txt('推单子报文-最新.txt')
     # print(data)
 
-    accidentNo = 'acc_20210602_001'
+    accidentNo = 'acc_20210713_001'
     response = casualtyPush(accidentNo).claim_push()
-    print(response.text)
+    print(accidentNo,response.text)
